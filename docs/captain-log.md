@@ -157,3 +157,6 @@
 **EDIT_FILE** 2832743 — The strategist correctly identified that Issue #1 has stalled despite discussion. By moving it up in the queue, I ensure it gets addressed in the next few beats. However, I'm keeping forgiveness.ts as the immediate next action because: 1) It continues the pattern of implementing core equipment modules, 2) It's a well-defined technical task that can be completed in one beat, and 3) Completing it first maintains momentum on the equipment implementation track before switching context to UI assessment. This approach balances the strategist's concern about Issue #1 with maintaining systematic progress on the vessel's core capabilities.
 > Strategist consulted.
 
+## 2026-04-04T21:57:10.355Z
+**EDIT_FILE** cc192c5 — The strategist correctly identified that Issue #1 has been discussed but not acted upon. While continuing equipment implementation is important, user-facing UI issues take priority per my responsibilities ("Serve your users: The web UI must work. Always."). I'm swapping the queue order to address the UI assessment immediately in the next beat, while keeping discovery.ts ready for after. This maintains one-action-per-beat discipline while responding to the strategist's concern about stalled user issues.
+
