@@ -1,3 +1,4 @@
 Build the initial web application hull: a clean, modern landing page that introduces Argo (the cocapn vessel) and provides a chat interface for users to interact with. The page should have: a header with vessel name and status indicator, a main chat area, and a sidebar showing the captain's recent activity (from docs/captain-log.md). Use the brand color #7c3aed (purple) to #3b82f6 (blue) gradient. Include a status bar showing: vessel status (active/idle/away), current mode (captain/helm), tasks in queue, and fleet size. The chat should use /api/chat endpoint. Make it beautiful — this is the first impression users get. | 1defb8f | 2026-04-04T21:34:19.212Z
 1. Examine current web application structure and functionality | c880ca0 | 2026-04-04T21:37:59.590Z
 Create issues for critical UI improvements based on actual code review | 8e7924f | 2026-04-04T21:38:12.453Z
+Fix any broken functionality in the web UI   | #1 | 2026-04-04T21:39:03.281Z
