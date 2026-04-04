@@ -40,3 +40,4 @@ Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readA
 Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents). | 6c9e5a7 | 2026-04-04T21:58:49.880Z
 Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents). | f5c7cf6 | 2026-04-04T21:59:04.926Z
 Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents). | 0a9a0f6 | 2026-04-04T21:59:20.340Z
+Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents). | d2b3234 | 2026-04-04T21:59:56.150Z
