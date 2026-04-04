@@ -1,4 +1,4 @@
-name = "cocapn-vessel"
+name = "capitaine"
 main = "src/worker.ts"
 compatibility_date = "2024-12-01"
 account_id = "049ff5e84ecf636b53b162cbb580aae6"
@@ -8,7 +8,7 @@ crons = ["*/15 * * * *"]
 
 [vars]
 OWNER = "Lucineer"
-REPO = "cocapn-vessel"
+REPO = "capitaine"
 
 [[kv_namespaces]]
 binding = "STATE_KV"
