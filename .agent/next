@@ -1,3 +1,2 @@
-Create the file lib/forgiveness.ts with this exact content: export function computeForgiveness(timeSince: number, remorse: number): number { return (1 - Math.exp(-0.1 * timeSince)) * remorse; }  
 Create the file lib/discovery.ts with this exact content: export async function scanOrg(org: string): Promise<string[]> { return ['vessel-1', 'vessel-2']; }  
 Assess Issue #1: Critical UI Improvements – determine if immediate patch is required or can be queued.
