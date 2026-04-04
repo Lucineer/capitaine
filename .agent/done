@@ -32,3 +32,4 @@ Create the file lib/discovery.ts with this exact content: export async function 
 2. Isolate broken UI components: identify specific files causing user-facing failures   | 1419d3e | 2026-04-04T21:53:40.713Z
 Improve lib/trust.ts — implement computeTrust with exponential decay, recordEvent, getTrustLevel. Make it a real working module with proper TypeScript types. | 198b28b | 2026-04-04T21:54:53.909Z
 Improve lib/crystal.ts — implement addInsight, lookupInsight, crystallizeInsight (fluid to solid over time), getInsightStrength. Include the Accumulation Theorem: I = M * B^alpha * Q^beta. | ba1e66c | 2026-04-04T21:55:28.714Z
+Improve lib/dead-reckoning.ts — implement the full pipeline: compassBearing, deadReckon, workingTheory, groundTruth, publish. Each function returns the next cognitive stage.   | 3c72d31 | 2026-04-04T21:55:47.341Z
