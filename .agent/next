@@ -1,4 +1,3 @@
-Triage Issue #1: Critical UI Improvements - assess scope, determine if UI is broken, and create diagnostic comment.  
 Create the file lib/crystal.ts implementing the crystal graph: addInsight, lookupInsight, crystallizeInsight, getInsightStrength. Insights harden from fluid to solid over time.  
 Create the file lib/dead-reckoning.ts implementing the DR pipeline: compassBearing, deadReckon, workingTheory, groundTruth, publish.  
 Create the file lib/learning.ts implementing the learning engine: extractLessons, shareInsight, buildOnPriorWork, detectDiminishingReturns.  
