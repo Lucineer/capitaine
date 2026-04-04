@@ -1,1 +1,2 @@
+Assess current UI state — inspect app/components, app/routes, and public/ for any obvious breakage; check Issue #1 comments for specific failures.  
 Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents).
