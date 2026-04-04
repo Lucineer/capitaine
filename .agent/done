@@ -30,3 +30,4 @@ Create the file lib/discovery.ts with this exact content: export async function 
 Create the file lib/discovery.ts with this exact content: export async function scanOrg(org: string): Promise<string[]> { return ['vessel-1', 'vessel-2']; } | comment #1 | 2026-04-04T21:52:18.753Z
 1. Assess UI issues from #1 and create prioritized task list   | 2d72a1f | 2026-04-04T21:53:19.343Z
 2. Isolate broken UI components: identify specific files causing user-facing failures   | 1419d3e | 2026-04-04T21:53:40.713Z
+Improve lib/trust.ts — implement computeTrust with exponential decay, recordEvent, getTrustLevel. Make it a real working module with proper TypeScript types. | 198b28b | 2026-04-04T21:54:53.909Z
