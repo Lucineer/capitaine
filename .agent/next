@@ -1,4 +1,3 @@
-```
 Examine current UI codebase structure and identify critical issues for Issue #1
 Create the file lib/trust.ts with this exact content: export function computeTrust(events: any[]): number { return events.reduce((score, e) => score + (e.positive ? 0.1 : -0.2), 0.5); }
 Create the file lib/crystal.ts with this exact content: export function addInsight(key: string, content: string): void { console.log('Crystal:', key, content); }
