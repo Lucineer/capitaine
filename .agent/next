@@ -1,2 +1,1 @@
-Assess Issue #1: Critical UI Improvements — perform diagnostic review of UI components, identify failure modes, and define repair manifest.  
 Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents).
