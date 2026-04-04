@@ -1,5 +1,6 @@
-Improve lib/crystal.ts — implement addInsight, lookupInsight, crystallizeInsight (fluid to solid over time), getInsightStrength. Include the Accumulation Theorem: I = M * B^alpha * Q^beta.
-Improve lib/dead-reckoning.ts — implement the full pipeline: compassBearing, deadReckon, workingTheory, groundTruth, publish. Each function returns the next cognitive stage.
-Improve lib/learning.ts — implement extractLessons (from captain-log), shareInsight (creates crystal), buildOnPriorWork (checks existing), detectDiminishingReturns (flags repetitive patterns).
-Improve lib/forgiveness.ts — implement computeForgiveness with the mathematical model f(t,r,n) = (1-e^-lambda*t) * (r + alpha*n) / (1 + beta*e^-gamma*t). Include TypeScript interfaces.
-Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents).
+Improve lib/crystal.ts — implement addInsight, lookupInsight, crystallizeInsight (fluid to solid over time), getInsightStrength. Include the Accumulation Theorem: I = M * B^alpha * Q^beta.  
+Improve lib/dead-reckoning.ts — implement the full pipeline: compassBearing, deadReckon, workingTheory, groundTruth, publish. Each function returns the next cognitive stage.  
+Improve lib/learning.ts — implement extractLessons (from captain-log), shareInsight (creates crystal), buildOnPriorWork (checks existing), detectDiminishingReturns (flags repetitive patterns).  
+Improve lib/forgiveness.ts — implement computeForgiveness with the mathematical model f(t,r,n) = (1-e^-lambda*t) * (r + alpha*n) / (1 + beta*e^-gamma*t). Include TypeScript interfaces.  
+Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents).  
+Assess Issue #1 — Critical UI Improvements: perform initial evaluation of UI components, identify specific improvements, propose actionable changes.
