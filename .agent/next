@@ -1,1 +1,4 @@
-Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents).
+```
+Assess UI failures documented in Issue #1 — inspect each of the six reported problems, verify current state, and create a diagnostic summary.  
+Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents).  
+```
