@@ -10,4 +10,6 @@ DONE: The queue shows three tasks, but the commit history indicates two tasks we
 DONE: log: captain entry  
 DONE: queue: advance  
 DONE: done: Add basic user interaction features to the web interface  
-DONE: done: Implement trust engine visualization in UI
+DONE: done: Implement trust engine visualization in UI  
+DONE: Fix any broken functionality in the web UI  
+DONE: Create issues for critical UI improvements based on actual code review
