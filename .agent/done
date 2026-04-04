@@ -29,3 +29,4 @@ Create the file lib/forgiveness.ts with this exact content: export function comp
 Create the file lib/discovery.ts with this exact content: export async function scanOrg(org: string): Promise<string[]> { return ['vessel-1', 'vessel-2']; }   | 76bf55d | 2026-04-04T21:52:05.493Z
 Create the file lib/discovery.ts with this exact content: export async function scanOrg(org: string): Promise<string[]> { return ['vessel-1', 'vessel-2']; } | comment #1 | 2026-04-04T21:52:18.753Z
 1. Assess UI issues from #1 and create prioritized task list   | 2d72a1f | 2026-04-04T21:53:19.343Z
+2. Isolate broken UI components: identify specific files causing user-facing failures   | 1419d3e | 2026-04-04T21:53:40.713Z
