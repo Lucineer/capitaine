@@ -1,4 +1,3 @@
-2. Isolate broken UI components: identify specific files causing user-facing failures  
 3. Implement emergency UI repairs: fix critical bugs blocking user functionality  
 4. Verify UI integrity: test all user flows after repairs  
 5. Document UI architecture for future maintenance  
