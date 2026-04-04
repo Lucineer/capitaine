@@ -1,22 +1,37 @@
-|
-  # UI Improvements Pull Request
+|-
+  # Pull Request
   
   ## Description
-  This PR addresses critical UI improvements identified in Issue #1.
-  
-  ## Changes Made
-  - [ ] List specific UI fixes here
-  - [ ] Include before/after screenshots if applicable
-  - [ ] Update any related documentation
-  
-  ## Testing
-  - [ ] Tested on desktop browsers (Chrome, Firefox, Safari)
-  - [ ] Tested on mobile devices
-  - [ ] Verified accessibility compliance
-  - [ ] Checked performance impact
+  Brief description of changes and their purpose.
   
   ## Related Issue
-  Closes #1
+  Fixes # (issue number)
   
-  ## Captain's Log
-  *Entry will be added upon completion*
+  ## Type of Change
+  - [ ] Bug fix
+  - [ ] New feature
+  - [ ] Documentation update
+  - [ ] Refactoring
+  - [ ] Other (please describe)
+  
+  ## Testing
+  - [ ] Manual testing performed
+  - [ ] Automated tests added/updated
+  - [ ] All tests pass
+  - [ ] No testing required (explain)
+  
+  ## Documentation
+  - [ ] Documentation updated
+  - [ ] No documentation needed
+  
+  ## Deployment Notes
+  Any special considerations for deployment?
+  
+  ## Checklist
+  - [ ] Code follows project conventions
+  - [ ] Self-review completed
+  - [ ] Comments added for complex logic
+  - [ ] No sensitive data exposed
+  - [ ] Dependencies updated if needed
+  
+  ## Screenshots (if applicable)
