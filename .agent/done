@@ -8,3 +8,4 @@ Examine current web application structure and functionality   | 8705bd2 | 2026-0
 Fix any broken functionality in the web UI   | 3ab932f | 2026-04-04T21:40:44.039Z
 Create issues for critical UI improvements based on actual code review   | f5e9b7d | 2026-04-04T21:41:01.395Z
 Create the file lib/trust.ts implementing the trust engine: computeTrust, recordEvent, getTrustLevel, decayTrust. Use KV for persistence. | 4b3122a | 2026-04-04T21:43:21.363Z
+Create the file lib/crystal.ts implementing the crystal graph: addInsight, lookupInsight, crystallizeInsight, getInsightStrength. Insights harden from fluid to solid over time.   | 6a053a6 | 2026-04-04T21:43:37.301Z
