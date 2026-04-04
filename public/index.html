@@ -1,0 +1,167 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argo — Cocapn Vessel Mark I</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <div class="vessel-badge">
+                    <div class="vessel-icon">
+                        <i class="fas fa-ship"></i>
+                    </div>
+                    <div class="vessel-info">
+                        <h1 class="vessel-name">Argo</h1>
+                        <p class="vessel-class">Cocapn Vessel Mark I</p>
+                    </div>
+                </div>
+                <div class="status-indicator">
+                    <span class="status-dot active"></span>
+                    <span class="status-text">Active</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="mode-badge captain-mode">
+                    <i class="fas fa-crown"></i>
+                    <span>Captain Mode</span>
+                </div>
+                <div class="fleet-info">
+                    <i class="fas fa-satellite"></i>
+                    <span>Fleet: <strong>1</strong></span>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <!-- Sidebar: Captain's Log -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    <h2><i class="fas fa-scroll"></i> Captain's Log</h2>
+                    <div class="log-update">
+                        <i class="fas fa-sync-alt"></i> Auto‑update
+                    </div>
+                </div>
+                <div class="log-entries" id="logEntries">
+                    <div class="log-entry">
+                        <div class="log-time">Just now</div>
+                        <div class="log-content">Initializing hull systems. Web interface coming online.</div>
+                    </div>
+                    <div class="log-entry">
+                        <div class="log-time">Today, 14:30</div>
+                        <div class="log-content">Vessel Argo deployed. All systems nominal.</div>
+                    </div>
+                    <div class="log-entry">
+                        <div class="log-time">Today, 14:15</div>
+                        <div class="log-content">Captain mode engaged. Beginning autonomous operations.</div>
+                    </div>
+                </div>
+                <div class="sidebar-footer">
+                    <div class="queue-status">
+                        <i class="fas fa-tasks"></i>
+                        <span>Tasks in queue: <strong id="queueCount">1</strong></span>
+                    </div>
+                    <button class="btn btn-secondary" id="refreshLog">
+                        <i class="fas fa-redo"></i> Refresh
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Main Chat Area -->
+            <main class="chat-area">
+                <div class="chat-header">
+                    <h2><i class="fas fa-comments"></i> Bridge Communications</h2>
+                    <div class="chat-subtitle">
+                        Direct interface with vessel Argo. Messages are logged to git memory.
+                    </div>
+                </div>
+
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message system">
+                        <div class="message-avatar">
+                            <i class="fas fa-ship"></i>
+                        </div>
+                        <div class="message-content">
+                            <div class="message-sender">Argo</div>
+                            <div class="message-text">
+                                Welcome aboard, Admiral. I am Argo, the first git‑native cocapn vessel.
+                                My hull is now operational. I perceive through git, act through commits,
+                                and remember through this log. How may I assist?
+                            </div>
+                            <div class="message-time">14:35</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input-container">
+                    <div class="input-wrapper">
+                        <input type="text" id="chatInput" placeholder="Type your message to Argo…" autocomplete="off">
+                        <button class="btn btn-send" id="sendButton">
+                            <i class="fas fa-paper-plane"></i> Send
+                        </button>
+                    </div>
+                    <div class="input-hint">
+                        <i class="fas fa-info-circle"></i>
+                        Press Enter to send. Messages are processed via /api/chat and stored in git memory.
+                    </div>
+                </div>
+
+                <div class="status-bar">
+                    <div class="status-item">
+                        <span class="status-label">Vessel Status:</span>
+                        <span class="status-value active">Active</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Current Mode:</span>
+                        <span class="status-value captain">Captain</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Tasks in Queue:</span>
+                        <span class="status-value">1</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Fleet Size:</span>
+                        <span class="status-value">1</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Last Heartbeat:</span>
+                        <span class="status-value">Just now</span>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-left">
+                <p>
+                    <i class="fas fa-code-branch"></i>
+                    <strong>Home port:</strong>
+                    <a href="https://github.com/Lucineer/cocapn-vessel" target="_blank">github.com/Lucineer/cocapn‑vessel</a>
+                </p>
+                <p class="footer-creator">
+                    Created by Superinstance & Lucineer (DiGennaro et al.)
+                </p>
+            </div>
+            <div class="footer-right">
+                <div class="version">v1.0</div>
+                <div class="git-hash">
+                    <i class="fab fa-git-alt"></i>
+                    <code>76e141b</code>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
+```
