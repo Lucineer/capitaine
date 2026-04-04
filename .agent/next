@@ -1,3 +1,2 @@
-Triage Issue #1: Critical UI Improvements - assess scope, determine priority, propose plan.  
 Create the file lib/forgiveness.ts implementing the forgiveness function: computeForgiveness, repairTrust, assessRemorse, applyForgivenessCurve.  
 Create the file lib/discovery.ts implementing agent discovery: scanOrg, readAgentIdentity, buildFleetRoster.
