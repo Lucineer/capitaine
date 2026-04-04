@@ -1,3 +1,4 @@
-Assess UI failures documented in Issue #1 — inspect each of the six reported problems, verify current state, and create a diagnostic summary.  
+```
+Inspect each of the six UI problems listed in Issue #1 — verify current state in code, note root causes, and draft a fix plan.  
 Improve lib/discovery.ts — implement scanOrg (list repos in GitHub org), readAgentIdentity (fetch .agent/identity), buildFleetRoster (compile discovered agents).  
 ```
