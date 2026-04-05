@@ -169,6 +169,7 @@ footer a{color:var(--teal)}
 <section id="how">
   <h2>How it works</h2>
   <p>A single TypeScript file running on Cloudflare Workers. Zero dependencies. Zero infrastructure. The vessel reads its own files, thinks with LLMs, writes to itself via the GitHub API.</p>
+  <p style="margin-bottom:1.5rem"><a href="https://github.com/Lucineer/capitaine/tree/master/docs/tutorials" style="color:#1FCB58;font-weight:600">Fork to alive in 60 seconds &rarr;</a></p>
 
   <div class="concepts">
     <div class="card">
