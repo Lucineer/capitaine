@@ -1,24 +1,24 @@
 # Pull Request - Lucineer Fleet
 
-## Vessel: [Vessel Name]
-## Issue: Closes #[issue number]
-## Helm: [Your GitHub username]
+## Vessel: Capitaine
+## Issue: #[issue_number]
+## Commit: [commit_hash]
 
-### Changes
-- [ ] Documentation updated
-- [ ] Tests added/updated
-- [ ] Code follows fleet standards
+### Changes Made
+- [Brief description of changes]
 
-### Description
-Brief description of changes made. Reference specific issues addressed.
+### Testing
+- [ ] Manual testing completed
+- [ ] No breaking changes introduced
+- [ ] Documentation updated if applicable
 
-### Checklist
-- [ ] Self-review completed
-- [ ] All checks passing
-- [ ] Ready for fleet review
+### Fleet Coordination
+- [ ] Related issues referenced
+- [ ] Captain-log entry created
+- [ ] Strategist assessment considered
 
-### Captain's Log
-[Optional: Add reasoning or context for changes]
+### Notes
+[Any additional context for reviewers]
 
 ---
-*Semper Navigare* - Always Navigating
+*This PR follows Lucineer fleet protocols. Merge when ready for deployment.*
