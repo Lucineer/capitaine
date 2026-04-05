@@ -362,3 +362,7 @@ Each has been inspected; implementation pending integration via PR.
 **CREATE_FILE** 809fb1a — The Strategist correctly identified the deployment readiness paradox - we have all components ready but no active PR. Creating this specialized PR template bridges the gap between our preparatory work and actual deployment. This follows our new marine coordination protocols while directly addressing issue #10. The template ensures proper documentation and coordination for this critical first deployment.
 > Strategist consulted.
 
+## 2026-04-05T21:00:55.414Z
+**COMMENT** comment #11 — Clearing redundant issues (#12-14) before deployment ensures visitors see clean, organized project management. This demonstrates our operational discipline and makes the repository more educational. The hero section PR can then be created without confusing cross-references.
+> Strategist consulted.
+
