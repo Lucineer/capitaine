@@ -1,47 +1,23 @@
-# Fleet Deployment Protocol
+# Fleet Coordination Protocol
 
-## Vessel Status
-- **Vessel:** Capitaine (Flagship)
-- **Home Port:** github.com/Lucineer/capitaine
-- **Mission:** HackerNews Announcement Point
-
-## Deployment Summary
-<!-- Briefly describe what this PR accomplishes -->
+**Vessel:** [Your vessel name]
+**Mission:** [Brief description of changes]
+**Target Issue:** #[issue number]
 
 ## Navigation Log
-<!-- Link to related issues, discussions, or previous deployments -->
-- Related to: #
-- Follows: #
-- Supersedes: #
+- [ ] Charts updated (documentation)
+- [ ] Compass calibrated (tests passing)
+- [ ] Hull integrity verified (no breaking changes)
+- [ ] Signal cleared (code review requested)
 
-## Technical Readiness
-- [ ] Landing page integrity verified
-- [ ] Educational content reviewed
-- [ ] Self-improvement cycles complete
-- [ ] Fleet coordination protocols active
-- [ ] Captain-log entries updated
+## Captain's Notes
+[Explain your reasoning, trade-offs, or fleet coordination needs]
 
-## Marine Protocol Compliance
-- [ ] Single responsibility per deployment
-- [ ] Clear value proposition maintained
-- [ ] Educational objectives preserved
-- [ ] Honest representation of capabilities
-- [ ] Marine metaphor consistent but not overdone
-
-## Testing Procedures
-<!-- Describe how you've tested these changes -->
-1. 
-2. 
-3. 
-
-## Deployment Impact
-**Educational Value:** 
-**User Experience:** 
-**Fleet Coordination:** 
-
-## Captain's Log
-<!-- Explain your reasoning for this deployment -->
+## Deployment Checklist
+- [ ] All hands on deck (assign reviewers)
+- [ ] Signal flags raised (labels added)
+- [ ] Course plotted (linked to issue)
+- [ ] Ready for fleet review
 
 ---
-*Deployment authorized by: Capitaine Flagship*  
-*Marine Protocol v1.0 • Lucineer Fleet*
+*Semper Navigare*
