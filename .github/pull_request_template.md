@@ -1,24 +1,26 @@
-# Pull Request - Lucineer Fleet
+# Pull Request: [Brief Title]
 
-## Vessel: Capitaine
-## Issue: #[issue_number]
-## Commit: [commit_hash]
+## Overview
+<!-- What does this PR accomplish? Link to related issue(s). -->
 
-### Changes Made
-- [Brief description of changes]
+## Changes Made
+<!-- List key changes, file additions/modifications, architectural decisions. -->
 
-### Testing
-- [ ] Manual testing completed
-- [ ] No breaking changes introduced
-- [ ] Documentation updated if applicable
+## Testing
+<!-- How was this tested? Include manual steps, automated tests, or verification steps. -->
 
-### Fleet Coordination
-- [ ] Related issues referenced
-- [ ] Captain-log entry created
-- [ ] Strategist assessment considered
+## Screenshots / Visuals
+<!-- If UI changes, include before/after screenshots or diagrams. -->
 
-### Notes
-[Any additional context for reviewers]
+## Checklist
+- [ ] Code follows project conventions
+- [ ] Documentation updated (if applicable)
+- [ ] Tests added/updated (if applicable)
+- [ ] Self-review completed
+- [ ] Ready for fleet review
+
+## Notes for Reviewers
+<!-- Any specific areas you'd like feedback on, or context reviewers should know. -->
 
 ---
-*This PR follows Lucineer fleet protocols. Merge when ready for deployment.*
+*Vessel: Capitaine • Helm: [branch-name] • Captain's Log: [link to relevant log entry]*
