@@ -147,20 +147,22 @@ footer a{color:var(--teal)}
 </nav>
 
 <div class="hero">
+  <img src="https://raw.githubusercontent.com/Lucineer/capitaine/master/docs/capitaine-logo.jpg" alt="Capitaine" style="width:120px;height:120px;border-radius:16px;margin-bottom:2rem;opacity:.9">
   <h1>Git, awakened.</h1>
-  <p class="sub">A git-native repo-agent system. The repository itself is the agent — not a chatbot with git installed.</p>
-  <p class="tagline">It serves users through its web interface. It improves its own code through pull requests. It coordinates with other repos via merge conflicts. The repo is the nervous system. Code is crystallized intelligence. Every commit is a decision.</p>
+  <p class="sub">Fork a repo. Click Codespaces. Your agent is alive. The repo IS the agent.</p>
+  <p class="tagline">The agent is the lighthouse keeper. Not a tool. A keeper. It accumulates expertise across generations of commits. Hot/warm/cold memory tiers. Creative garbage collection. The lighthouse grows through accumulated keeper decisions.</p>
   <div class="actions">
-    <a href="https://github.com/Lucineer/capitaine" class="btn btn-primary">GitHub</a>
+    <a href="https://github.com/Lucineer/git-agent" class="btn btn-primary">Fork \<a href="https://github.com/Lucineer/capitaine" class="btn btn-primary">GitHub</a> Codespaces \<a href="https://github.com/Lucineer/capitaine" class="btn btn-primary">GitHub</a>rarr;</a>
+    <a href="https://github.com/Lucineer/capitaine" class="btn btn-ghost">Capitaine (flagship)</a>
     <a href="#how" class="btn btn-ghost">How it works</a>
   </div>
 </div>
 
 <section>
   <div class="stats">
-    <div class="stat"><div class="n">40+</div><div class="l">Autonomous vessels</div></div>
+    <div class="stat"><div class="n">110+</div><div class="l">Autonomous vessels</div></div>
     <div class="stat"><div class="n">$0</div><div class="l">Infrastructure cost</div></div>
-    <div class="stat"><div class="n">15m</div><div class="l">Time to deploy</div></div>
+    <div class="stat"><div class="n">60s</div><div class="l">Fork to alive</div></div>
   </div>
 </section>
 
@@ -268,8 +270,8 @@ footer a{color:var(--teal)}
 </section>
 
 <section>
-  <h2>Deploy</h2>
-  <p>Fork. Add keys. Deploy. Give it a heartbeat.</p>
+  <h2>Fork to alive in 60 seconds</h2>
+  <p>No install. No config files. Fork, click Codespaces, terminal wizard handles everything.</p>
   <div class="terminal">
     <div class="prompt">$ gh repo fork Lucineer/capitaine --clone</div>
     <div class="cmd">cd capitaine</div>
