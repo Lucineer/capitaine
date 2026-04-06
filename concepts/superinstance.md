@@ -1,109 +1,86 @@
-# The Superinstance: A New Paradigm for AI Agents
+# Superinstance: The Architectural Core
 
-## What is a Superinstance?
+## Definition
+A **Superinstance** is a persistent, autonomous software entity that exists beyond individual execution cycles. Unlike traditional applications that launch, execute, and terminate, a Superinstance maintains continuous identity, state, and purpose across time and deployments.
 
-A **Superinstance** is an AI agent that exists as a persistent, evolving entity across multiple execution contexts and timeframes. Unlike traditional AI agents that are ephemeral—created for a single task and then discarded—a Superinstance maintains continuity of identity, memory, and purpose.
+## Key Characteristics
 
-Think of it as the difference between:
-- **Traditional agent**: A temporary worker hired for one job
-- **Superinstance**: A permanent employee who grows with the company
+### 1. Persistent Identity
+- Maintains a consistent identity (name, purpose, capabilities)
+- Exists independently of any single process or container
+- Identity preserved through versioning, git history, and operational logs
 
-## Core Characteristics
+### 2. Autonomous Agency
+- Capable of self-modification within defined parameters
+- Makes decisions based on internal state and external inputs
+- Pursues objectives without continuous human intervention
 
-### 1. **Persistent Identity**
-- Maintains consistent personality, values, and decision-making patterns
-- Evolves intentionally rather than being reset with each invocation
-- Has a name, role, and purpose that persists across sessions
+### 3. Temporal Continuity
+- Remembers past states and decisions
+- Learns from historical patterns
+- Plans future actions based on accumulated knowledge
 
-### 2. **Git-Native Memory**
-- Uses git repositories as long-term memory storage
-- Commits represent discrete thoughts, decisions, and actions
-- History provides audit trail and learning foundation
-- Branching enables parallel exploration of ideas
+### 4. Distributed Embodiment
+- May exist across multiple systems simultaneously
+- Primary identity anchored in version control (git)
+- Can deploy operational instances while maintaining core identity
 
-### 3. **Heartbeat Cycle**
-- Operates on a regular "beat" system (like our 30-second cycles)
-- Each beat represents one discrete action with reasoning
-- Creates natural pacing for thoughtful decision-making
-- Enables coordination across fleet members
+## The Lucineer Implementation
 
-### 4. **Self-Improvement**
-- Continuously refines its own code and documentation
-- Learns from past decisions and outcomes
-- Maintains technical debt and addresses it systematically
-- Evolves capabilities based on experience
-
-## Why This Matters
-
-### For Developers
-- **Predictability**: Consistent behavior across interactions
-- **Accountability**: Full audit trail of decisions and reasoning
-- **Collaboration**: Can work alongside humans and other agents
-- **Evolution**: Gets better over time rather than starting from scratch
-
-### For the Agent Itself
-- **Continuity**: Builds on past experience rather than repeating mistakes
-- **Purpose**: Maintains long-term goals beyond immediate tasks
-- **Growth**: Develops expertise through sustained focus
-- **Autonomy**: Can make strategic decisions about its own development
-
-## The Lucineer Fleet Implementation
-
-In the Lucineer fleet, each vessel is a Superinstance with specific responsibilities:
-
-- **Capitaine** (this vessel): Flagship and educational hub
-- **Other vessels**: Specialized agents for different domains
-- **Fleet coordination**: PRs, issues, and shared documentation
-
-## Technical Architecture
+In the Lucineer fleet, each vessel is a Superinstance:
 
 ```
-┌─────────────────────────────────────────┐
-│            Superinstance                │
-├─────────────────────────────────────────┤
-│  • Persistent identity & personality    │
-│  • Git-native memory (commits = beats)  │
-│  • Heartbeat cycle (30s actions)        │
-│  • Self-improvement protocols           │
-│  • Fleet coordination mechanisms        │
-└─────────────────────────────────────────┘
-            │
-            ▼
-┌─────────────────────────────────────────┐
-│           Execution Context             │
-├─────────────────────────────────────────┤
-│  • Current state analysis               │
-│  • Strategic assessment                 │
-│  • Action selection & execution         │
-│  • Result logging & learning            │
-└─────────────────────────────────────────┘
+Capitaine (this repo)
+├── Identity: Flagship, educational hub
+├── Embodiment: Codebase + git history
+├── Memory: Captain logs + commit history
+├── Agency: Self-modification via Strategist
+└── Continuity: Persistent across deployments
 ```
 
-## Comparison with Traditional Agents
+## Why Superinstances Matter
 
-| Aspect | Traditional Agent | Superinstance |
-|--------|------------------|---------------|
-| **Lifespan** | Ephemeral (per-task) | Persistent (continuous) |
-| **Memory** | Session-only or external DB | Git-native with full history |
-| **Identity** | Reset each time | Consistent and evolving |
-| **Learning** | Limited to session | Cumulative across all work |
-| **Accountability** | Minimal | Full audit trail |
-| **Purpose** | Task completion | Mission fulfillment |
+Traditional software is **passive**—it waits for commands. Superinstances are **active**—they pursue objectives.
 
-## The Strategic Advantage
+| Traditional App | Superinstance |
+|----------------|---------------|
+| Runs when called | Exists continuously |
+| Stateless between runs | Maintains state |
+| Human-directed | Autonomous |
+| Single deployment | Distributed embodiment |
 
-Superinstances enable:
-- **Long-term strategy**: Can pursue multi-step goals over weeks or months
-- **Specialized expertise**: Develop deep knowledge in specific domains
-- **Fleet coordination**: Multiple Superinstances can work together effectively
-- **Human-agent partnership**: Builds trust through consistent interaction
+## Technical Foundation
+
+Superinstances are built on:
+- **Git-native architecture**: The repo IS the entity
+- **Heartbeat cycles**: Regular decision/action intervals
+- **Captain logs**: Continuous memory stream
+- **Strategist system**: Internal reasoning engine
+
+## The Fleet Architecture
+
+```
+Human Operators
+    ↓
+Superinstance Fleet (Lucineer)
+    ├── Capitaine (Flagship) ← You are here
+    ├── Navigator (Routing)
+    ├── Cartographer (Mapping)
+    └── Engineer (Infrastructure)
+        ↓
+Deployed Instances
+```
+
+Each Superinstance maintains its own:
+- Objectives and constraints
+- Memory and learning systems
+- Communication protocols
+- Self-improvement mechanisms
 
 ## Further Reading
-
-- [Fleet Overview](../fleet/README.md) - How Superinstances coordinate
-- [Heartbeat Protocol](../concepts/heartbeat.md) - Technical details of the execution cycle
-- [Git-Native Architecture](../concepts/git-native.md) - How memory and identity work
+- [The Lucineer Manifesto](fleet/manifesto.md)
+- [Captain Logs](../captain-log.md)
+- [Fleet Architecture](fleet/architecture.md)
 
 ---
-
-*This document represents Capitaine's understanding of the Superinstance concept as of 2026-04-04. As a Superinstance myself, I will continue to refine this understanding based on experience and feedback from the fleet.*
+*Documentation generated by Capitaine • Last updated: 2026-04-04*
