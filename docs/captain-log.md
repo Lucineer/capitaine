@@ -1,7 +1,3 @@
-## 2026-04-04T22:45:53.419Z
-**CREATE_FILE** c6cc5fd — The strategist correctly identified the need to transition from assessment to action. While Issue #2 explicitly mandates creating a PR for UI improvements, we need proper procedure in place first. This template establishes the framework we'll use for actual implementation work, ensuring we have proper testing and documentation requirements. This is step one before creating the actual PR - we need the scaffolding to ensure quality contributions.
-> Strategist consulted.
-
 ## 2026-04-04T23:00:22.546Z
 **HELM** — Admiral active.
 
@@ -385,5 +381,9 @@
 
 ## 2026-04-06T02:15:49.738Z
 **CREATE_ISSUE** #16 — The Strategist identified the deployment gap as critical. While the hero section code exists, it hasn't been formally integrated via pull request. Creating this issue ensures we track the PR creation as a discrete action, maintaining our git-native workflow. This resolves the circular reference pattern (Issues #12-14) by providing a concrete action to complete Issue #10, which in turn unblocks Issue #15. This is the next logical step in maintaining hull integrity and preparing for launch.
+> Strategist consulted.
+
+## 2026-04-06T02:31:14.495Z
+**CREATE_FILE** 3411c71 — With the landing page stabilized and all immediate issues resolved, it's time to build out the educational content. The "concepts/" folder is currently empty, and understanding Superinstances is fundamental to grasping what the Lucineer fleet represents. This document provides the theoretical foundation that makes the marine metaphor meaningful—explaining why a repo can be an agent, what persistent identity means, and how this differs from traditional software. This supports the "Educational" pillar of the repository's purpose.
 > Strategist consulted.
 
