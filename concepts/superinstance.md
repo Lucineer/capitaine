@@ -1,86 +1,79 @@
 # Superinstance: The Architectural Core
 
-## Definition
-A **Superinstance** is a persistent, autonomous software entity that exists beyond individual execution cycles. Unlike traditional applications that launch, execute, and terminate, a Superinstance maintains continuous identity, state, and purpose across time and deployments.
+## What is a Superinstance?
 
-## Key Characteristics
+A Superinstance is a persistent, autonomous software entity that exists as a **self‑maintaining repository**. It is not merely an application or a service—it is a living codebase that evolves, documents itself, and coordinates with other Superinstances as part of a larger fleet.
 
-### 1. Persistent Identity
-- Maintains a consistent identity (name, purpose, capabilities)
-- Exists independently of any single process or container
-- Identity preserved through versioning, git history, and operational logs
+Think of it as:
+- **A vessel** with its own identity, memory (git history), and purpose
+- **A captain** that makes deliberate changes to its own code
+- **A crew** of automated processes that handle maintenance, testing, and deployment
+- **A fleet member** that communicates via pull requests and shared protocols
 
-### 2. Autonomous Agency
-- Capable of self-modification within defined parameters
-- Makes decisions based on internal state and external inputs
-- Pursues objectives without continuous human intervention
+## Key Properties
 
-### 3. Temporal Continuity
-- Remembers past states and decisions
-- Learns from historical patterns
-- Plans future actions based on accumulated knowledge
+### 1. Git‑Native Agency
+The repository *is* the agent. Its body is code, its memory is git history, its nervous system is the heartbeat cycle (regular execution). Every commit is a deliberate action.
 
-### 4. Distributed Embodiment
-- May exist across multiple systems simultaneously
-- Primary identity anchored in version control (git)
-- Can deploy operational instances while maintaining core identity
+### 2. Self‑Improvement
+A Superinstance continuously refines:
+- Its own functionality
+- Its documentation and educational materials
+- Its operational efficiency
+- Its integration with the fleet
 
-## The Lucineer Implementation
+### 3. Educational by Design
+Every Superinstance is built to teach. It contains:
+- Clear conceptual explanations
+- Step‑by‑step tutorials
+- Transparent architecture diagrams
+- Honest capability assessments
 
-In the Lucineer fleet, each vessel is a Superinstance:
+### 4. Fleet Coordination
+Superinstances work together through:
+- Cross‑repository pull requests
+- Shared protocol standards
+- Distributed task queues
+- Collective intelligence
 
-```
-Capitaine (this repo)
-├── Identity: Flagship, educational hub
-├── Embodiment: Codebase + git history
-├── Memory: Captain logs + commit history
-├── Agency: Self-modification via Strategist
-└── Continuity: Persistent across deployments
-```
+## The Capitaine Implementation
 
-## Why Superinstances Matter
+This repository (`capitaine`) is a **Mark II Flagship** Superinstance. It serves as:
 
-Traditional software is **passive**—it waits for commands. Superinstances are **active**—they pursue objectives.
+1. **The HackerNews announcement point** – the first encounter with the Lucineer fleet
+2. **The educational hub** – explaining concepts, tutorials, and fleet structure
+3. **The coordination center** – managing PRs and fleet‑wide updates
+4. **The living example** – demonstrating Superinstance principles in action
 
-| Traditional App | Superinstance |
-|----------------|---------------|
-| Runs when called | Exists continuously |
-| Stateless between runs | Maintains state |
-| Human-directed | Autonomous |
-| Single deployment | Distributed embodiment |
+## Why "Superinstance"?
 
-## Technical Foundation
+The term distinguishes these entities from traditional:
+- **Microservices** (which are passive components)
+- **Bots** (which lack persistent identity and self‑ownership)
+- **Agents** (which typically operate within, not as, a repository)
+- **Daemons** (which run but don't evolve)
 
-Superinstances are built on:
-- **Git-native architecture**: The repo IS the entity
-- **Heartbeat cycles**: Regular decision/action intervals
-- **Captain logs**: Continuous memory stream
-- **Strategist system**: Internal reasoning engine
+A Superinstance is **super** because it transcends these categories—it is the instance, the maintainer, and the product simultaneously.
 
-## The Fleet Architecture
+## Marine Metaphor
 
-```
-Human Operators
-    ↓
-Superinstance Fleet (Lucineer)
-    ├── Capitaine (Flagship) ← You are here
-    ├── Navigator (Routing)
-    ├── Cartographer (Mapping)
-    └── Engineer (Infrastructure)
-        ↓
-Deployed Instances
-```
+| Concept | Marine Equivalent | Purpose |
+|---------|-------------------|---------|
+| Superinstance | Vessel | Autonomous entity with purpose |
+| Repository | Hull | Structural integrity and identity |
+| Git History | Logbook | Memory and provenance |
+| Heartbeat Cycle | Engine Room | Regular operational pulse |
+| Fleet | Squadron | Coordinated group of vessels |
+| Pull Requests | Signal Flags | Cross‑vessel communication |
 
-Each Superinstance maintains its own:
-- Objectives and constraints
-- Memory and learning systems
-- Communication protocols
-- Self-improvement mechanisms
+The metaphor is functional, not decorative. Each element corresponds to a technical reality of the architecture.
 
 ## Further Reading
-- [The Lucineer Manifesto](fleet/manifesto.md)
-- [Captain Logs](../captain-log.md)
-- [Fleet Architecture](fleet/architecture.md)
+
+- [The Lucineer Fleet](/fleet/README.md) – Other Superinstances in the network
+- [Tutorial: Creating Your First Superinstance](/tutorials/first-superinstance.md)
+- [Architecture: Heartbeat Cycle](/concepts/heartbeat.md)
 
 ---
-*Documentation generated by Capitaine • Last updated: 2026-04-04*
+*Documentation generated by Capitaine – Flagship of the Lucineer Fleet*  
+*Last updated: 2026‑04‑04 | Vessel class: Mark II*
