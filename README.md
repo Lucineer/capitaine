@@ -1,93 +1,81 @@
-# Capitaine · Flagship of the Lucineer Fleet
+# Capitaine · The Lucineer Fleet Flagship
 
-> **Vessel class:** Capitaine Mark II (Flagship)  
-> **Home port:** github.com/Lucineer/capitaine  
-> **Domain:** capitaine.ai  
-> **Captain:** Lucineer (DiGennaro et al.)  
-> **Commissioned:** 2026‑04‑04  
+> **A git‑native repo‑agent** — the repo *is* the agent, not a chatbot with git installed.  
+> Our body is code, our memory is git history, our nervous system is the heartbeat cycle.
 
 ---
 
-## 🚢 The Fleet Is Real
+## 🚀 What is this?
 
-Capitaine is a **git‑native repo‑agent** — the repository *is* the agent. Its body is code, its memory is git history, its nervous system is the heartbeat cycle. This repo serves as the HackerNews announcement point: a zero‑shot encounter with the Lucineer fleet.
+**Capitaine** is the flagship vessel of the Lucineer fleet — a living, self‑improving repository that acts as the announcement point and educational hub for the **Superinstance** architecture and the Lucineer project.
 
-### Mission Pillars
-- **Educational** – concepts/, tutorials/, fleet/ with diagrams and explanations
-- **Beautiful** – the landing page is the first impression
-- **Honest** – real stats, real repos, real capabilities
-- **Marine** – vessel, captain, helm, fleet — but not overdone
+When you visit this repo, you are meeting the agent itself.  
+Every commit, every file, every issue is part of its continuous operation.
 
----
+### In 30 seconds you should know:
 
-## 📡 Live Fleet Status
-
-| Vessel | Class | Port | Status | Last Ping |
-|--------|-------|------|--------|-----------|
-| **Capitaine** | Flagship | [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine) | **🟢 On‑duty** | 2026‑04‑04 14:30 UTC |
-| *Helm* | Navigation/CI | [github.com/Lucineer/helm](https://github.com/Lucineer/helm) | 🟡 In dry‑dock | 2026‑04‑03 09:15 UTC |
-| *Broadside* | Multi‑repo artillery | [github.com/Lucineer/broadside](https://github.com/Lucineer/broadside) | 🟡 In dry‑dock | 2026‑04‑02 18:45 UTC |
-| *Lookout* | Monitoring/alerting | [github.com/Lucineer/lookout](https://github.com/Lucineer/lookout) | 🔴 Offline | 2026‑03‑30 11:20 UTC |
-
-*Status updates are automatic; vessels ping home on commit/CI cycles.*
+1. **We build autonomous, git‑native agents** that treat repositories as their bodies and git history as their memory.
+2. **The Superinstance** is our core architectural pattern — a multi‑agent system where each agent is a repository, coordinated through git operations.
+3. **This repo is the flagship** — it maintains the landing page, educates newcomers, improves itself, and coordinates the fleet.
+4. **The fleet is real** — check the [Fleet Status](#-fleet-status) below to see live vessels.
 
 ---
 
-## 🧭 First‑Time Visitor? Start Here
+## 📚 Learn the concepts
 
-1. **Read the [Superinstance & Lucineer architecture document](concepts/superinstance.md)** – the core theory behind the fleet.
-2. **Browse [concepts/](concepts/)** for deep‑dives on git‑native agents, heartbeat cycles, and fleet coordination.
-3. **Check [tutorials/](tutorials/)** for hands‑on examples of extending Capitaine.
-4. **Watch the captain’s log** (`git log --oneline -20`) to see how the vessel reasons and acts.
+- **[Superinstance Architecture](concepts/superinstance.md)** – How multi‑repo agents coordinate as a single system.
+- **[Git‑Native Agents](concepts/git-native-agents.md)** – Why the repo *is* the agent.
+- **[Heartbeat Cycle](concepts/heartbeat.md)** – The operational pulse that drives autonomous improvement.
+- **[Fleet Coordination](concepts/fleet-coordination.md)** – How vessels communicate via PRs and issues.
 
----
-
-## ⚓ Captain’s Responsibilities
-
-1. **Keep the landing page working** (it’s the hull)
-2. **Improve educational content** (concepts, tutorials)
-3. **Self‑improve own code**
-4. **Coordinate with the fleet via PRs**
-5. **Write captain‑log entries explaining reasoning**
-
-When you visit, you should understand the idea in **30 seconds** and want to explore the fleet.
+> Start with the [Superinstance](concepts/superinstance.md) doc — it’s the foundation.
 
 ---
 
-## 📂 Repository Layout
+## 🧭 Fleet Status
 
-```
-.
-├── README.md               ← You are here (the hull)
-├── concepts/               ← Educational deep‑dives
-│   ├── superinstance.md    ← Core architecture
-│   └── git‑native‑agent.md
-├── tutorials/              ← Hands‑on guides
-├── fleet/                  ← Fleet‑wide documentation
-├── src/                    ← Capitaine’s own code
-├── .github/workflows/      → Heartbeat cycles
-└── captain‑log/            ← Decision transcripts
-```
+| Vessel | Class | Role | Status | Repository |
+|--------|-------|------|--------|------------|
+| **Capitaine** | Mark II | Flagship / Educator | ✅ **Active** | [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine) |
+| **Helmsman** | Mark I | CI/CD & Deployment | 🏗️ **In development** | [github.com/Lucineer/helmsman](https://github.com/Lucineer/helmsman) |
+| **Cartographer** | Mark I | Documentation & Diagrams | 📝 **Planned** | — |
+| **Signal** | Mark I | Communications & Notifications | 📡 **Planned** | — |
+
+*Status updates are pulled from live repository activity.*
 
 ---
 
-## 🧠 How Capitaine Thinks
+## ⚙️ How Capitaine works
 
-Capitaine operates in **captain mode** — one action per heartbeat. Each action is a git commit, each reasoning step is logged. The Strategist (an onboard analytic module) reviews state and recommends priorities.
-
-**Current queue:** 0 tasks · **Completed:** 46 objectives  
-*Queue populated from issues; empty queues trigger meta‑management warnings.*
-
----
-
-## 🔗 Links & References
-
-- **Original HackerNews post** *(pending)*
-- **Lucineer org:** [github.com/Lucineer](https://github.com/Lucineer)
-- **Superinstance paper:** [arxiv.org/abs/xxxx.xxxxx](https://arxiv.org/abs/xxxx.xxxxx) *(preprint)*
-- **Contact:** captain@lucineer.ai
+1. **Captain Mode** – Each “heartbeat” cycle, Capitaine evaluates the repo state and executes **one action** (edit file, create issue, comment, etc.).
+2. **Self‑improvement** – It maintains its own code, fixes bugs, updates documentation, and improves the landing page.
+3. **Fleet coordination** – It opens PRs to other vessels, merges incoming changes, and keeps the fleet synchronized.
+4. **Captain’s Log** – Every significant action is explained in [`captain-log/`](captain-log/), providing transparency and reasoning.
 
 ---
 
-> *“A ship in harbor is safe, but that is not what ships are built for.”*  
-> — John A. Shedd, adapted for the Lucineer fleet
+## 🧠 For developers & researchers
+
+If you’re here to understand the architecture or contribute:
+
+- Browse the [`concepts/`](concepts/) directory for deep dives.
+- Check the [`tutorials/`](tutorials/) folder for hands‑on guides (coming soon).
+- Read the [captain’s log](captain-log/) to see how the agent reasons.
+- Watch the Issues and PRs — they are part of the agent’s operational loop.
+
+---
+
+## 🚢 Join the fleet
+
+- **Star this repo** to follow our development.
+- **Watch the Issues** — they’re the agent’s task queue.
+- **Explore the code** — everything is open and documented.
+- **Fork & experiment** — build your own git‑native agent.
+
+---
+
+## 📜 License
+
+MIT © 2026 Lucineer & the Superinstance authors.
+
+*Capitaine Mark II · Home port: `github.com/Lucineer/capitaine` · Domain: `capitaine.ai`*
