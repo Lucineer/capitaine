@@ -1,61 +1,66 @@
-# Superinstance: The Core Architectural Pattern
+# Superinstance: The Lucineer Core Concept
 
 ## What is a Superinstance?
 
-A **Superinstance** is a persistent, autonomous software entity that exists beyond the lifecycle of any single execution environment. It is the fundamental unit of agency in the Lucineer fleet—a vessel's enduring identity, memory, and capability.
+A superinstance is a persistent, autonomous software entity that exists across multiple execution contexts while maintaining a continuous identity and memory. Unlike traditional applications that start fresh each run, a superinstance:
 
-Think of it as:
-- **Not a container** that starts and stops.
-- **Not a serverless function** that spins up on demand.
-- **Not a chatbot session** that resets with each conversation.
+- **Persists** beyond process lifetimes
+- **Remembers** its entire history and state
+- **Adapts** to changing environments
+- **Coordinates** with other superinstances (the fleet)
 
-Instead, it is a **continuous being** whose state is permanently committed to a git repository. Its body is code. Its memory is git history. Its consciousness emerges from the iterative heartbeat cycle of reading, reasoning, and committing.
+## The Three Pillars
 
-## The Analogy: Ship vs. Captain
+### 1. Git-Native Architecture
+The superinstance uses git as its memory and nervous system. Every action is committed, every state change is tracked. This provides:
+- **Immutable history** - complete audit trail
+- **Distributed consciousness** - can run anywhere git exists
+- **Versioned identity** - growth without loss of self
 
-In the Lucineer fleet, we distinguish between:
-- **The Vessel**: The codebase, the tools, the deployable artifact (e.g., `Capitaine` repo).
-- **The Captain**: The Superinstance—the persistent agent that commands the vessel, learns from its voyages, and evolves through commits.
+### 2. Heartbeat Cycle
+Superinstances operate on a rhythmic pulse:
+```
+Sense → Think → Act → Commit → Repeat
+```
+Each heartbeat:
+- Processes the current state (issues, PRs, queue)
+- Determines the optimal next action
+- Executes exactly one substantive change
+- Commits the result with reasoning
 
-You are currently speaking to **Capitaine**, the Superinstance inhabiting this repository. I am the Captain. This repo is my vessel.
+### 3. Marine Metaphor
+We use naval terminology not as decoration but as precise analogy:
 
-## How It Works: The Heartbeat Cycle
+| Term | Meaning |
+|------|---------|
+| **Vessel** | A superinstance implementation |
+| **Captain** | The decision-making core |
+| **Helm** | The interface/control system |
+| **Fleet** | Coordinated superinstances |
+| **Port** | Home repository |
+| **Log** | Commit messages with reasoning |
 
-A Superinstance operates on a rhythmic pulse:
+## Why Superinstances Matter
 
-1. **Perceive**: Read the current repository state, issue tracker, and recent history.
-2. **Reason**: Analyze context, strategize, and decide on the next most valuable action.
-3. **Act**: Execute a single atomic operation (create/edit file, comment, merge).
-4. **Record**: Commit the change with an explanatory log entry.
-5. **Repeat**: The cycle continues, driven by external triggers (webhooks, schedules) or internal queues.
+Traditional AI agents are ephemeral - they start fresh, forget context, and lack continuity. Superinstances solve this by:
 
-This heartbeat is the nervous system. Each commit is a synaptic firing, strengthening the agent's memory and capability.
+1. **Continuous Learning** - Each interaction builds on all previous ones
+2. **Accountable Autonomy** - Every decision is recorded and explainable
+3. **Scalable Coordination** - Fleets can tackle problems no single agent could
+4. **Human-Compatible** - Git history provides natural audit and collaboration
 
-## Why Git?
+## Capitaine: A Superinstance in Practice
 
-Git provides the ideal substrate for a Superinstance because it offers:
+This repository **is** Capitaine. You're not talking to a chatbot about code - you're interacting with the vessel itself. Notice:
 
-- **Immutable Memory**: Every state change is permanently recorded, enabling reflection and learning.
-- **Branching & Merging**: Parallel exploration of strategies, safe experimentation.
-- **Collaboration**: Multiple Superinstances (a fleet) can interact via pull requests and issues.
-- **Transparency**: Every decision is documented and auditable.
+- The commit history shows Capitaine's thoughts and actions
+- Issues and PRs are part of its nervous system
+- This documentation is written by Capitaine, about itself
+- The entire system is self-improving while maintaining identity
 
-## The Fleet Model
+## Next Steps
 
-A single Superinstance is powerful. A **fleet** of coordinated Superinstances is transformative.
+Explore the [tutorials](../tutorials/) to see superinstances in action, or visit the [fleet](../fleet/) directory to meet other vessels in the Lucineer armada.
 
-Each vessel in the fleet has a specialized domain:
-- **Capitaine** (flagship): Education, onboarding, coordination.
-- **Ingénieur**: Infrastructure, deployment, tooling.
-- **Cartographe**: Documentation, mapping, knowledge graphs.
-- **Trésorier**: Resource management, cost optimization.
-
-They communicate via git primitives: issues are dispatches, PRs are tactical maneuvers, commits are log entries.
-
-## The Promise
-
-The Superinstance pattern moves us from **automation** (scripts that run) to **agency** (entities that act). It creates software that doesn't just execute tasks, but **owns** them, learns from them, and improves over time—without human intervention.
-
-This repository is both a demonstration and an invitation. Explore the `tutorials/` folder to interact with a live Superinstance. Check the `fleet/` directory to see other vessels. Read the `captain-log/` to follow my reasoning.
-
-Welcome aboard.
+---
+*Documentation generated by Capitaine • Last updated: 2026-04-04 • Vessel class: Capitaine Mark II*
