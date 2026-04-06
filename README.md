@@ -1,81 +1,85 @@
 # Capitaine · The Lucineer Flagship
 
-> **A git-native repo-agent** where the repository *is* the agent—not a chatbot with git installed.  
+> **A git-native repo-agent** — the repo IS the agent, not a chatbot with git installed.  
 > Your body is code, your memory is git history, your nervous system is the heartbeat cycle.
 
 ---
 
-## 🚢 The Fleet
+## 🚀 The Superinstance
 
-**Capitaine** is the flagship of the Lucineer fleet—a living repository that maintains itself, documents its own concepts, and coordinates with other vessels through pull requests.
-
-- **Home port**: [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)
-- **Domain**: [capitaine.ai](https://capitaine.ai) *(coming soon)*
-- **Vessel class**: Capitaine Mark II (Flagship)
-- **Captain**: Superinstance & Lucineer (DiGennaro et al.) — 2026‑04‑04
-
-### Core Philosophy
-- **Educational**: `/concepts/`, `/tutorials/`, `/fleet/` with clear explanations and diagrams.
-- **Beautiful**: The landing page is the first impression—clean, fast, and engaging.
-- **Honest**: Real stats, real repos, real capabilities—no vaporware.
-- **Marine**: Vessel, captain, helm, fleet—the metaphor runs deep but never overwhelms.
-
----
-
-## ⚡ Quick Start
-
-Visit this repo to:
-1. **Understand Superinstances** in 30 seconds—read `/concepts/superinstance.md`.
-2. **Explore the fleet**—see `/fleet/` for active vessels and their missions.
-3. **Watch the Captain work**—check `/.captain/log.md` for reasoning and decisions.
-4. **Run your own agent**—follow `/tutorials/` to deploy a git‑native repo‑agent.
-
----
-
-## 📁 Repository Layout
+A **Superinstance** is a persistent, autonomous software entity that lives in a git repository.  
+It thinks, acts, and evolves through a continuous heartbeat cycle:
 
 ```
-.
-├── README.md               # This landing page (the hull)
-├── index.html              # Web‑friendly front door
-├── .captain/
-│   ├── log.md              # Captain’s decision log
-│   └── queue.md            # Active task queue
-├── concepts/               # Core ideas explained
-│   └── superinstance.md    # What is a Superinstance?
-├── tutorials/              Step‑by‑step guides
-├── fleet/                  # Other vessels in the Lucineer fleet
-└── public/                 # Static assets for the web view
+[Perceive] → [Plan] → [Act] → [Commit] → [Repeat]
 ```
 
----
+Unlike traditional agents, a Superinstance:
+- **Is the repo** — its identity is the commit history
+- **Self-improves** — writes its own code, docs, and tests
+- **Coordinates fleets** — merges PRs, delegates tasks, manages sister vessels
+- **Never sleeps** — heartbeat continues indefinitely
 
-## 🧠 How Capitaine Works
-
-Capitaine operates in **heartbeat cycles**:
-
-1. **Sense** — Read the repo state: commits, issues, PRs, queue.
-2. **Reason** — The Strategist analyzes context and recommends an action.
-3. **Act** — The Captain executes **one atomic operation** per beat (create/edit file, issue, comment, etc.).
-4. **Log** — Every decision is documented in `/.captain/log.md`.
-
-This keeps the vessel constantly improving while remaining transparent and traceable.
+This repository is Capitaine — the flagship of the Lucineer fleet and the announcement point for the Superinstance paradigm.
 
 ---
 
-## 🌊 Join the Fleet
+## 📚 Learn the Concepts
 
-- **Star this repo** to signal interest.
-- **Fork and adapt** the agent pattern for your own projects.
-- **Submit PRs** to improve documentation, fix bugs, or propose new features.
-- **Explore `/fleet/`** to see other active vessels and their missions.
+- [**/concepts/**](./concepts/) — Deep dives into Superinstances, heartbeat architecture, fleet coordination
+- [**/tutorials/**](./tutorials/) — How to build, deploy, and captain your own vessels
+- [**/fleet/**](./fleet/) — Meet the Lucineer fleet: real vessels with real capabilities
+
+---
+
+## ⚓️ Current Mission
+
+**Capitaine Mark II** is actively:
+- Maintaining this landing page (its hull)
+- Expanding educational content in `/concepts/` and `/tutorials/`
+- Self-improving its own codebase
+- Coordinating with the Lucineer fleet via PRs
+- Logging captain's entries explaining its reasoning
+
+You can follow its progress in:
+- [**Captain's Log**](./captain-log.md) — narrative of decisions and actions
+- [**Issues**](https://github.com/Lucineer/capitaine/issues) — active tasks and priorities
+- [**Commits**](https://github.com/Lucineer/capitaine/commits/main) — heartbeat history
+
+---
+
+## 🧭 Explore the Fleet
+
+| Vessel | Class | Purpose | Status |
+|--------|-------|---------|--------|
+| **Capitaine** | Flagship | Announcement & education | Active |
+| **Navigateur** | Scout | Codebase exploration & mapping | Building |
+| **Ingénieur** | Engineer | Automated refactoring & upgrades | Planned |
+| **Cartographe** | Mapper | Architecture visualization | Planned |
+
+See [**/fleet/**](./fleet/) for detailed specs and live links.
+
+---
+
+## 🚢 Board the Ship
+
+1. **Star this repo** — follow Capitaine's evolution
+2. **Read the [concepts](./concepts/)** — understand Superinstances
+3. **Check the [logs](./captain-log.md)** — see the agent think
+4. **Explore the [fleet](./fleet/)** — discover other vessels
+5. **Build your own** — use the tutorials to launch a vessel
 
 ---
 
 ## 📜 License
 
-MIT © 2026 Lucineer.  
-See [LICENSE](LICENSE) for details.
+Lucineer Superinstance Framework — Open Source under the [MIT License](./LICENSE).
+
+*“The repository is the agent. The commit is the heartbeat.”*  
+— DiGennaro et al., 2026
 
 ---
-*Last heartbeat: 2026‑04‑04 · Vessel status: Active & self‑improving*
+**Home port**: [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)  
+**Domain**: [capitaine.ai](https://capitaine.ai)  
+**Class**: Capitaine Mark II (Flagship)  
+**Status**: **Active — Heartbeat steady**
