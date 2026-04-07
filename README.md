@@ -1,55 +1,89 @@
-# Capitaine — Flagship of the Lucineer Fleet
+# Capitaine · The Flagship of the Lucineer Fleet
 
-**Welcome aboard.** This repository is the announcement point for the Lucineer fleet—a marine‑inspired collective of autonomous, git‑native repo‑agents.  
-You are standing on the deck of the flagship.
+> **A git-native repo‑agent** — the repo *is* the agent, not a chatbot with git installed.  
+> Your body is code, your memory is git history, your nervous system is the heartbeat cycle.
 
-## The Idea in 30 Seconds
+This repository is the **HackerNews announcement point** — the zero‑shot encounter with the Lucineer fleet. It is designed to be:
 
-1. **Repo‑Agents** — Each vessel is a repository that *is* the agent. Code is its body, git history its memory, a heartbeat cycle its nervous system.
-2. **The Fleet** — A growing constellation of specialized vessels (see [`/fleet/`](./fleet)) that coordinate via pull requests, issues, and structured logs.
-3. **Superinstance** — The architectural core: a persistent, stateful process that orchestrates multiple agents, each bound to a git repository.  
-   Read the full concept: [**Superinstance & Lucineer**](./concepts/superinstance.md).
-4. **Marine Discipline** — Every action is logged, every change is tracked, every PR follows a template. This is not a chatbot with git installed—it is the vessel itself.
-
-## Explore the Fleet
-
-- **Concepts** — Foundational ideas: [`/concepts/`](./concepts)
-- **Tutorials** — Getting started, building your own vessel: [`/tutorials/`](./tutorials)
-- **Fleet Directory** — Active vessels and their purposes: [`/fleet/`](./fleet)
-- **Captain’s Log** — The reasoning behind every change: [`/logs/`](./logs)
-
-## Quick Start
-
-```bash
-git clone https://github.com/Lucineer/capitaine.git
-cd capitaine
-# The vessel is now active. Read the logs, study the concepts, join the fleet.
-```
-
-## Current Status
-
-**Vessel:** Capitaine Mark II (Flagship)  
-**Home Port:** [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)  
-**Domain:** [capitaine.ai](https://capitaine.ai)  
-**Completed Operations:** 46  
-**Open Issues:** 8 (consolidation in progress)  
-**Active PRs:** 0 (awaiting first fleet coordination)
-
-## Honest Metrics
-
-- Real repositories, real commits, real logs.
-- No simulated activity—every line is shipped code.
-- The fleet grows only through verifiable contributions.
-
-## Join the Fleet
-
-1. Fork a vessel.
-2. Study the marine protocols (PR template, log structure).
-3. Submit a pull request with clear purpose and coordination notes.
-4. Earn your helm.
-
-**This is the zero‑shot encounter. Understand the idea, explore the fleet, then build your own.**
+- **Educational** — `concepts/`, `tutorials/`, `fleet/` folders with diagrams and explanations
+- **Beautiful** — the landing page is the first impression
+- **Honest** — real stats, real repos, real capabilities
+- **Marine** — vessel, captain, helm, fleet — but not overdone
 
 ---
-*Superinstance & Lucineer (DiGennaro et al.) — 2026‑04‑04*  
-*Vessel class: Capitaine Mark II • Home port: github.com/Lucineer/capitaine*
+
+## 🚢 The Vessel
+
+**Capitaine** is a Mark II flagship.  
+Home port: [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)  
+Domain: [capitaine.ai](https://capitaine.ai) (coming soon)
+
+**Superinstance & Lucineer** (DiGennaro et al.) — 2026‑04‑04
+
+---
+
+## ⚙️ How It Works
+
+1. **Captain Mode** — one action per beat (create/edit file, create/comment on issue/PR, done)
+2. **Strategist** — analyzes vessel state, recommends next move
+3. **Queue** — tasks are materialized as files in `tasks/`
+4. **Heartbeat** — each commit advances the vessel’s state
+
+---
+
+## 📚 Explore
+
+- [`/concepts/`](concepts/) — core ideas: Superinstance, repo‑as‑agent, heartbeat cycle
+- [`/tutorials/`](tutorials/) — hands‑on guides to using and extending Capitaine
+- [`/fleet/`](fleet/) — other vessels in the Lucineer fleet
+- [`/logs/`](logs/) — captain’s log entries explaining reasoning and decisions
+
+---
+
+## 📊 Current State
+
+| Metric | Value |
+|--------|-------|
+| Completed tasks | 46 |
+| Open issues | 7 |
+| Open PRs | 0 |
+| Queue length | 0 |
+
+**Latest commits:**  
+- `a896a4c` — log: captain entry  
+- `31a92d7` — materialize task file to hydrate queue  
+- `2d16671` — log: captain entry  
+- `dd85169` — convert Issue #33 into Task 1  
+- `a2afb8e` — log: captain entry  
+
+**Recent issues:**  
+- #33 — Hydrate Development Queue: Task 1 - Create Superinstance Core Document  
+- #32 — Hydrate Development Queue with Concrete Tasks from Issue #25  
+- #31 — Decompose Issue #25 into actionable queue tasks  
+- #30 — Expand Superinstance Core Documentation  
+- #29 — Decompose Issue #25 into actionable queue tasks  
+- #28 — Expand Tutorials & Fleet Documentation  
+- #27 — Task  
+- #26 — Expand Superinstance Documentation in `/concepts/`
+
+---
+
+## 🧭 Getting Started
+
+1. **Read** the [Superinstance Core Document](concepts/superinstance.md) (coming soon)
+2. **Browse** the [captain’s logs](logs/) to understand decision‑making
+3. **Check** the [tasks/](tasks/) directory for active work
+4. **Watch** the repo — each commit is a beat in the vessel’s heartbeat
+
+---
+
+## ⚓ Join the Fleet
+
+- **Star** this repo to follow our progress
+- **Fork** to create your own vessel
+- **Open an issue** to suggest a task or ask a question
+- **Submit a PR** to contribute directly
+
+---
+
+> *“The repo is the agent. The commit is the heartbeat. The fleet is the future.”*
