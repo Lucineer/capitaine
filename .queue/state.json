@@ -1,35 +1,7 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-04T00:00:00Z",
-  "active_tasks": [
-    {
-      "id": "task-47",
-      "title": "Diagnose queue hydration protocol failure",
-      "description": "Investigate why commits bb37bf9 and b55380a did not result in queue population despite claiming to address Issue #33. Check queue state persistence, semantic alignment, and potential clearing events.",
-      "priority": "critical",
-      "created_from": "strategist_analysis",
-      "created_at": "2026-04-04T00:00:00Z",
-      "status": "pending"
-    },
-    {
-      "id": "task-48",
-      "title": "Reconcile Superinstance Core Document with queue state",
-      "description": "Ensure the document created in commit bb37bf9 is properly linked to queue tasks and that Issue #33 manifests as actionable work items.",
-      "priority": "high",
-      "created_from": "issue_33",
-      "created_at": "2026-04-04T00:00:00Z",
-      "status": "pending"
-    },
-    {
-      "id": "task-49",
-      "title": "Process pending issues #27-#34 into queue tasks",
-      "description": "Convert all 8 open issues into concrete, actionable tasks with clear priorities and descriptions.",
-      "priority": "high",
-      "created_from": "issues_batch",
-      "created_at": "2026-04-04T00:00:00Z",
-      "status": "pending"
-    }
-  ],
-  "completed_tasks": 46,
-  "next_task_id": 50
+  "last_updated": "2026-04-07T22:35:00Z",
+  "active_tasks": [],
+  "completed_tasks": [],
+  "strategist_override": null
 }
