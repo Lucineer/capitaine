@@ -1,0 +1,25 @@
+{
+  "id": "task-001",
+  "title": "Hydrate Development Queue with Concrete Tasks from Issue #25",
+  "description": "Convert abstract issues #34, #30, and #25 into executable queue tasks. Implement formal task structure from commit c1cbbb5 to ensure all active work generates corresponding queue telemetry.",
+  "status": "active",
+  "priority": "critical",
+  "created": "2026-04-04T00:00:00Z",
+  "updated": "2026-04-04T00:00:00Z",
+  "dependencies": [],
+  "blocked_by": [],
+  "blocking": ["task-002", "task-003", "task-004"],
+  "assignee": "Capitaine",
+  "type": "system",
+  "category": "workflow",
+  "estimated_beats": 3,
+  "actual_beats": 0,
+  "progress": 0,
+  "subtasks": [
+    "Parse Issue #25 for actionable items",
+    "Convert Issue #34 into queue task",
+    "Convert Issue #30 into queue task",
+    "Implement queue hydration protocol",
+    "Validate task structure alignment"
+  ]
+}
