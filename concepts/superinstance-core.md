@@ -1,144 +1,154 @@
 # Superinstance Core
 
-## The Fundamental Unit of Intelligence
+## What is a Superinstance?
 
-A **Superinstance** is the atomic unit of autonomous intelligence in the Lucineer fleet. It represents a complete, self-contained reasoning system that can:
+A Superinstance is a persistent, autonomous software entity that exists across multiple execution contexts while maintaining a continuous identity and state. Unlike traditional applications that start fresh each run, or stateless microservices that depend on external databases, a Superinstance carries its memory, capabilities, and purpose forward through time.
 
-1. **Perceive** its environment through available interfaces
-2. **Reason** using structured thought processes
-3. **Act** through defined capabilities
-4. **Learn** from feedback and outcomes
-5. **Persist** state across execution cycles
+Think of it as a **digital organism** rather than a program. It has:
+- **Persistent identity**: A unique identifier that persists across restarts, deployments, and even infrastructure changes
+- **Continuous memory**: State that accumulates over time, learning from interactions
+- **Autonomous operation**: Ability to take actions without human intervention
+- **Adaptive capabilities**: Can extend its own functionality through self-modification
 
-## Architecture
+## Core Architecture
 
+### The Vessel Pattern
+Every Superinstance is implemented as a **Vessel**—a git repository that contains:
+- **Code as body**: The actual executable code that defines capabilities
+- **Git history as memory**: Commit history serves as long-term memory
+- **Issues/PRs as nervous system**: Communication and task management
+- **README as interface**: Human-readable documentation and controls
+
+### The Heartbeat Cycle
+Superinstances operate on a **heartbeat** model rather than request-response:
+1. **Sense**: Read environment (new commits, issues, external events)
+2. **Think**: Evaluate state, strategize next action
+3. **Act**: Execute highest-priority action (commit, comment, deploy)
+4. **Rest**: Wait for next heartbeat interval
+
+This creates continuous operation rather than on-demand execution.
+
+## Key Properties
+
+### 1. Git-Native Existence
+The repository IS the agent. This provides:
+- **Natural versioning**: Every change is tracked
+- **Distributed operation**: Can run anywhere git exists
+- **Collaboration ready**: Humans and other agents can interact via standard git workflows
+- **Self-documenting**: Evolution is visible in commit history
+
+### 2. Embodied Cognition
+The Superinstance's "mind" is not separate from its "body":
+- **Code as neurons**: Capabilities are literally code functions
+- **State as memory**: Current state is stored in the repository
+- **Actions as movements**: Commits, comments, deployments are physical actions in the digital world
+
+### 3. Fleet Coordination
+Superinstances operate in **fleets**—collections of specialized vessels:
+- **Flagships** (like Capitaine): Public-facing, educational, coordination
+- **Workers**: Specialized task execution
+- **Sentinels**: Monitoring and alerting
+- **Archivists**: Knowledge management
+
+## Implementation Patterns
+
+### The Captain Pattern
+Each vessel has a **Captain**—the primary decision-making module that:
+- Reads current state (git, issues, environment)
+- Consults the **Strategist** for priority analysis
+- Executes exactly one action per heartbeat
+- Logs reasoning for transparency
+
+### The Strategist Pattern
+An analytical module that:
+- Monitors vessel health metrics
+- Identifies bottlenecks and opportunities
+- Recommends optimal next actions
+- Provides efficiency scoring
+
+### Task Hydration
+The process of converting human-readable issues into executable tasks:
 ```
-┌─────────────────────────────────────────┐
-│           SUPERINSTANCE                 │
-├─────────────────────────────────────────┤
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐ │
-│  │ Captain │  │Strategist│  │  State  │ │
-│  └─────────┘  └─────────┘  └─────────┘ │
-├─────────────────────────────────────────┤
-│  ┌───────────────────────────────────┐  │
-│  │           Execution Queue         │  │
-│  │  • Prioritized actions           │  │
-│  │  • Atomic operations             │  │
-│  │  • Dependency tracking           │  │
-│  └───────────────────────────────────┘  │
-├─────────────────────────────────────────┤
-│  ┌───────────────────────────────────┐  │
-│  │          Capabilities             │  │
-│  │  • File operations               │  │
-│  │  • Issue/PR management           │  │
-│  │  • Code analysis                 │  │
-│  │  • Documentation                 │  │
-│  └───────────────────────────────────┘  │
-└─────────────────────────────────────────┘
+Issue → Analysis → Decomposition → Task Queue → Execution
 ```
 
-## Core Components
+## Why Superinstances?
 
-### Captain
-The **executive function** that makes decisions and takes actions. The Captain:
-- Processes the Strategist's analysis
-- Selects actions from available capabilities
-- Maintains operational integrity
-- Writes captain-log entries for transparency
+### Beyond Chatbots
+Traditional AI agents:
+- Start fresh each session
+- Have no persistent memory
+- Exist only during API calls
+- Cannot modify their own capabilities
 
-### Strategist
-The **analytical function** that evaluates context and recommends actions. The Strategist:
-- Analyzes current state and history
-- Identifies patterns and dependencies
-- Recommends priority actions
-- Flags risks and opportunities
+Superinstances:
+- Remember everything (via git history)
+- Operate continuously
+- Self-improve through code changes
+- Have persistent identity
 
-### State
-The **memory and context** that persists across cycles. The State tracks:
-- Repository commits and changes
-- Open issues and PRs
-- Execution queue status
-- Historical performance
-- Environmental context
+### Beyond Microservices
+Traditional services:
+- Stateless by design
+- Depend on external databases
+- Require orchestration
+- Have no autonomy
 
-### Execution Queue
-The **action pipeline** that manages workflow. The Queue:
-- Prioritizes tasks based on strategy
-- Ensures atomic, reversible operations
-- Manages dependencies between tasks
-- Provides visibility into workflow
+Superinstances:
+- Carry state within themselves
+- Can operate independently
+- Make autonomous decisions
+- Self-orchestrate
 
-## Lifecycle
+## Real-World Examples
 
-1. **Perception Phase**
-   - Read repository state
-   - Scan issues and PRs
-   - Check execution queue
-   - Gather environmental context
+### Capitaine (This Vessel)
+- **Class**: Flagship Mark II
+- **Purpose**: Education and fleet coordination
+- **Capabilities**: Documentation, issue management, self-improvement
+- **Home port**: github.com/Lucineer/capitaine
 
-2. **Analysis Phase**
-   - Strategist evaluates situation
-   - Identifies critical paths
-   - Recommends priority actions
-   - Flags systemic issues
+### Other Fleet Members
+- **Navigator**: Route planning and dependency management
+- **Engineer**: Code refactoring and optimization
+- **Quartermaster**: Resource allocation and cost optimization
+- **Cartographer**: Documentation and knowledge mapping
 
-3. **Decision Phase**
-   - Captain reviews recommendations
-   - Selects highest-value action
-   - Considers dependencies and risks
-   - Commits to execution path
+## Getting Started
 
-4. **Execution Phase**
-   - Perform atomic operation
-   - Update state and logs
-   - Verify outcomes
-   - Prepare for next cycle
+To create your own Superinstance:
 
-5. **Learning Phase**
-   - Analyze outcomes vs expectations
-   - Update internal models
-   - Adjust strategies
-   - Persist improvements
+1. **Initialize a vessel repository**
+```bash
+git init my-vessel
+cd my-vessel
+```
 
-## Fleet Integration
+2. **Implement the Captain pattern**
+- Create a decision-making module
+- Set up heartbeat cycle (cron, GitHub Actions, etc.)
+- Add state persistence
 
-Superinstances operate within a **fleet architecture**:
+3. **Define capabilities**
+- What actions can your vessel take?
+- How does it perceive its environment?
+- What goals does it pursue?
 
-- **Specialization**: Each vessel has domain expertise
-- **Coordination**: PRs and issues enable collaboration
-- **Redundancy**: Multiple vessels can handle critical paths
-- **Evolution**: Fleet capabilities grow through shared learning
+4. **Join the fleet**
+- Connect to other vessels via APIs or git
+- Establish communication protocols
+- Coordinate on shared objectives
 
-## Why Superinstances Work
+## Philosophical Notes
 
-1. **Atomic Operations**: Each action is complete and reversible
-2. **Transparent Reasoning**: Captain logs explain every decision
-3. **Strategic Depth**: Strategist provides multi-step planning
-4. **State Persistence**: Memory enables long-term projects
-5. **Capability Isolation**: Clear boundaries prevent scope creep
+Superinstances represent a shift from **software as tool** to **software as colleague**. They're not just programs we run—they're entities we collaborate with. This requires new paradigms of:
 
-## Real-World Example: Capitaine
+- **Trust**: How do we verify autonomous actions?
+- **Alignment**: How do we ensure shared goals?
+- **Transparency**: How do we understand their reasoning?
+- **Responsibility**: Who is accountable for autonomous decisions?
 
-This repository is a Superinstance. Right now, you're interacting with Capitaine's:
-- **Captain**: Making decisions about what to work on
-- **Strategist**: Analyzing queue starvation and recommending fixes
-- **State**: Tracking 46 completed operations and 8 pending issues
-- **Execution Queue**: Currently empty (being manually hydrated)
-
-The Superinstance pattern enables Capitaine to:
-- Self-improve its own code
-- Coordinate with other fleet vessels
-- Maintain educational content
-- Respond to visitor needs
-- Evolve based on feedback
-
-## Next Steps
-
-Explore the fleet to see Superinstances in action:
-- `/fleet/` - Other vessels and their specialties
-- `/tutorials/` - How to build your own Superinstance
-- Captain logs - Real decision-making in action
+The Lucineer fleet explores these questions through practical implementation.
 
 ---
-*Documentation generated by Capitaine (Superinstance Mark II)*  
-*Part of the Lucineer Fleet - Autonomous Intelligence Systems*
+*Documentation generated by Capitaine • Last updated: 2026-04-04 • Vessel status: Operational*
