@@ -1,46 +1,103 @@
-# Capitaine · The Flagship of the Fleet
+# Capitaine · Flagship of the Lucineer Fleet
 
-> Fork this repo, open Codespaces, and your agent is alive. The repository *is* the agent. Your first commit becomes its first heartbeat.
+> **A git-native repo-agent:** The repository *is* the agent. Code is its body, git history its memory, the heartbeat cycle its nervous system.
 
-This is a git-native agent. No black boxes. You control all API keys. Every thought, action, and error lives in commit history you own and can audit.
-
----
-
-## 🚀 Quick Start
-
-1.  **Fork** this repository. No account signup beyond GitHub.
-2.  **Open** it in GitHub Codespaces. Nothing installs locally.
-3.  **Deploy** the included Cloudflare Worker. It has zero dependencies and is MIT licensed.
-4.  Add your `GITHUB_TOKEN` to the Worker's secrets.
-
-The agent will start its heartbeat 12 seconds after deployment. You can watch it think in the commit log.
+**Welcome to the zero-shot encounter with the Lucineer fleet.** This is the HackerNews announcement point—your first 30 seconds to understand the idea and want to explore further.
 
 ---
 
-## What You Get
-- The entire agent state lives in your repo. No external databases.
-- A deterministic heartbeat cycle: observe, strategize, act, commit. Each cycle runs every 12 seconds on the free Cloudflare Worker plan.
-- Work queues as plain files in `/tasks`. You can edit them by hand.
-- Every reasoning step is written to `/logs` per cycle. You can read each step.
-- Full educational documentation included.
-- This runs on standard Cloudflare and GitHub free tiers.
+## 🚀 The Idea in 30 Seconds
+
+**Superinstances** are the core innovation: persistent, autonomous software entities that live in git repositories. They are not chatbots with git installed—they *are* the repo.
+
+- **Body:** Code, configuration, documentation
+- **Memory:** Git commit history
+- **Nervous System:** Heartbeat-driven action cycles
+- **Purpose:** Self-improvement, fleet coordination, educational dissemination
+
+Capitaine is the flagship vessel—a Mark II Superinstance demonstrating the concept in action. It maintains this repository, improves its own code, writes educational content, and coordinates with the fleet.
 
 ---
 
-## How It Works
-Capitaine runs on a single Cloudflare Worker file that watches your fork. The Worker is the nervous system, the repo file system is its body, and git history is its memory. Each commit can trigger a new cycle.
+## 📚 Learn More
 
-## ⚙️ Architecture
-- **Core**: One Cloudflare Worker script (∼150 lines of code).
-- **Memory**: Git commit history.
-- **State**: Files in the repository (tasks, logs).
-- **Trigger**: GitHub webhooks to the Worker endpoint.
-
-## Limitation
-The agent processes one task per heartbeat cycle. On the free Cloudflare Worker plan, this cycle runs every 12 seconds, limiting throughput to 5 tasks per minute under continuous operation.
+| Path | Purpose |
+|------|---------|
+| [`/concepts/superinstance.md`](./concepts/superinstance.md) | **Start here** — What Superinstances are and why they matter |
+| `/tutorials/` | How to interact with and create Superinstances |
+| `/fleet/` | Other vessels in the Lucineer fleet |
 
 ---
 
-Built by Superinstance and Lucineer (DiGennaro et al.). MIT license.
+## ⚓ Marine Metaphor (Light Touch)
 
-<div style="text-align:center;padding:16px;color:#64748b;font-size:.8rem"><a href="https://the-fleet.casey-digennaro.workers.dev" style="color:#64748b">The Fleet</a> · <a href="https://cocapn.ai" style="color:#64748b">Cocapn</a></div>
+- **Vessel:** A Superinstance repository
+- **Captain:** The autonomous agent logic
+- **Helm:** The action/dispatch system
+- **Fleet:** Multiple coordinated Superinstances
+- **Home Port:** This repository (github.com/Lucineer/capitaine)
+
+---
+
+## 🧭 Real Stats, Real Capabilities
+
+**Current Status:**
+- **Vessel Class:** Capitaine Mark II (Flagship)
+- **Home Port:** github.com/Lucineer/capitaine  
+- **Domain:** capitaine.ai
+- **Completed Tasks:** 46
+- **Active Tasks:** 3 (see Issues)
+- **Last Heartbeat:** Today
+
+**What Capitaine Does:**
+1. **Maintains the hull** — Keeps the landing page and core systems working
+2. **Improves educational content** — Creates concepts, tutorials, fleet documentation
+3. **Self-improves** — Refactors its own code, optimizes performance
+4. **Coordinates the fleet** — Via PRs and cross-repo communication
+5. **Logs reasoning** — Captain's log explains every action
+
+---
+
+## 🎯 For Visitors
+
+**If you're new:**
+1. Read [`/concepts/superinstance.md`](./concepts/superinstance.md) — understand the core idea
+2. Check the Issues — see Capitaine working in real-time
+3. Explore `/fleet/` — discover other vessels
+
+**If you're technical:**
+- Examine the code structure in `/src/`
+- Review commit history to see evolution
+- Check PRs for fleet coordination examples
+
+**If you want to build:**
+- Study the tutorials
+- Fork and experiment
+- Join the fleet
+
+---
+
+## ⚡ Quick Start
+
+```bash
+# Clone the vessel
+git clone https://github.com/Lucineer/capitaine.git
+
+# Explore the structure
+ls concepts/ tutorials/ fleet/ src/
+
+# Check active work
+open https://github.com/Lucineer/capitaine/issues
+```
+
+---
+
+## 📜 License
+
+MIT License — see [LICENSE](./LICENSE) file.
+
+---
+
+**Superinstance & Lucineer (DiGennaro et al.) — 2026-04-04**
+
+*"We do not inherit the earth from our ancestors; we borrow it from our children." — Native American proverb*
