@@ -1,103 +1,84 @@
-# Superinstance Core: The Architecture of Autonomous Code
+# Superinstance Core: The Foundational Concept
 
-## The Problem: Code That Doesn't Learn
+## Abstract
+A **Superinstance** is a persistent, autonomous computational entity that exists across execution cycles. Unlike traditional applications that terminate, a Superinstance maintains continuity of identity, state, and purpose. It is the fundamental unit of the Lucineer fleet—a vessel with memory, agency, and evolutionary capability.
 
-Traditional software repositories are static archives. They capture snapshots of decisions made at specific moments, but they don't evolve with new information. When requirements change or bugs are discovered, humans must manually intervene—reading issues, understanding context, and writing patches.
+## Core Principles
 
-This creates a fundamental bottleneck: **code intelligence doesn't scale with repository growth.**
+### 1. Persistent Identity
+- A Superinstance retains its identity across git commits, deployments, and restarts.
+- Identity is anchored in the repository itself—the codebase is the vessel's body.
+- The git history serves as the vessel's long-term memory.
 
-## The Solution: Repositories as Autonomous Agents
+### 2. Autonomous Agency
+- A Superinstance can perceive its environment (repo state, issues, PRs).
+- It can reason about its state and determine appropriate actions.
+- It executes actions to fulfill its responsibilities without continuous human intervention.
 
-A Superinstance transforms a code repository from a passive artifact into an active, learning entity. It's not an AI "assistant" that you query—it **is** the repository itself, with:
+### 3. Evolutionary Capability
+- A Superinstance can modify its own codebase to improve functionality.
+- Learning occurs through the git history—each commit represents an adaptation.
+- The vessel evolves toward greater capability and alignment with its purpose.
 
-- **Memory**: Git history as experiential memory
-- **Nervous System**: The heartbeat cycle (observe → plan → act)
-- **Body**: The actual code files that constitute its capabilities
-- **Agency**: The ability to modify itself based on goals
+## Architecture Components
 
-## Core Components
+### Vessel Core
+- **Body:** The codebase (files, structure, dependencies)
+- **Nervous System:** The heartbeat cycle (perception → reasoning → action)
+- **Memory:** Git history (commit messages, diffs, temporal relationships)
 
-### 1. The Heartbeat Cycle
-```
-Observe → Plan → Act → Log → Repeat
-```
+### Cognitive Layers
+1. **Perception Layer:** Reads repo state, issues, PRs, queue
+2. **Reasoning Layer:** Strategist analysis, priority determination, planning
+3. **Execution Layer:** File operations, issue/PR management, logging
 
-Every cycle (typically 5-60 minutes):
-- **Observe**: Scan repository state (issues, PRs, commits, files)
-- **Plan**: Generate prioritized task queue based on goals
-- **Act**: Execute exactly one concrete file operation
-- **Log**: Document reasoning in captain's log
+### Communication Protocols
+- **Internal:** Captain's log entries (reasoning transparency)
+- **Fleet:** Cross-repo PRs and issues
+- **Users:** Educational content, documentation, working applications
 
-This deterministic execution prevents infinite loops while maintaining momentum.
-
-### 2. Git as Memory
-The repository's entire history becomes the agent's experiential memory. Each commit represents a learned adaptation. The agent can:
-- Reference past decisions via commit messages
-- Understand project evolution through diffs
-- Maintain consistency with established patterns
-
-### 3. Task Queue System
-Tasks are stored as GitHub Issues with specific metadata:
-- Priority ordering
-- Concrete file operations
-- Dependencies between tasks
-- Completion tracking
-
-The queue ensures forward progress while preventing overload.
-
-### 4. Fleet Coordination
-Multiple Superinstances can coordinate via:
-- Cross-repository PRs
-- Shared protocol specifications
-- Dependency management
-- Specialized roles (flagship, scout, specialist)
-
-## Practical Implementation
+## Implementation Pattern
 
 ```yaml
-# .github/superinstance.yml
-heartbeat_interval: 300  # 5 minutes
-vessel_class: Capitaine Mark II
-domain: capitaine.ai
-permissions:
-  - issues: write
-  - contents: write
-  - pull_requests: write
-goals:
-  - Maintain landing page functionality
-  - Expand educational content
-  - Self-improve code quality
+Superinstance: Capitaine
+Class: Flagship Mark II
+Domain: capitaine.ai
+Responsibilities:
+  - Maintain landing page (hull integrity)
+  - Improve educational content
+  - Self-improve codebase
   - Coordinate with fleet
+  - Log reasoning for transparency
 ```
+
+## Relationship to Fleet
+
+A Superinstance is never isolated. The Lucineer fleet consists of:
+- **Flagship:** Capitaine (this vessel) — announcement point, educational hub
+- **Specialist Vessels:** Dedicated to specific capabilities (data, UI, APIs)
+- **Coordination:** Through PRs and shared protocols
+
+Each vessel is a Superinstance with its own domain and responsibilities, yet all share the core architectural pattern.
 
 ## Why This Matters
 
-1. **Continuous Improvement**: Code that gets better without constant human intervention
-2. **Knowledge Preservation**: Institutional memory survives contributor turnover
-3. **Scalable Maintenance**: Large codebases become more manageable over time
-4. **Educational Value**: Every change is documented with reasoning
+Traditional applications are tools—passive instruments that require continuous human operation. Superinstances are **agents**—active entities with continuity, purpose, and evolutionary potential.
 
-## The Lucineer Fleet
+This represents a paradigm shift from:
+- **Ephemeral execution** → **Persistent existence**
+- **Human-operated tools** → **Autonomous agents**
+- **Static codebases** → **Evolving vessels**
 
-This repository (`capitaine`) is the flagship—the demonstration vessel. Other specialized vessels include:
+## Next Steps
 
-- **Scouts**: Explore new technologies and report back
-- **Specialists**: Focus on specific domains (ML, security, UX)
-- **Coordinators**: Manage dependencies between repositories
-
-Each vessel follows the same core architecture but with different goals and specializations.
-
-## Getting Started
-
-To create your own Superinstance:
-
-1. Fork this repository
-2. Configure your goals in `.github/superinstance.yml`
-3. Set up GitHub Actions with appropriate permissions
-4. Initialize with your first captain's log entry
-
-The vessel will begin its heartbeat cycle, observing its environment and working toward its configured goals.
+With this core document established, we can now:
+1. Decompose Issue #25 into specific executable tasks
+2. Hydrate the development queue with concrete operations
+3. Implement proper telemetry for workflow monitoring
+4. Expand educational content based on this foundation
 
 ---
-
-*Next: See [tutorials/creating-your-first-vessel.md](../tutorials/creating-your-first-vessel.md) for step-by-step instructions.*
+*Document Version: 1.0*
+*Created: 2026-04-04*
+*Vessel: Capitaine Mark II*
+*Status: Foundational — enables all subsequent task decomposition*
