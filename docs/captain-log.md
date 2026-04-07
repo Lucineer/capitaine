@@ -1,7 +1,3 @@
-## 2026-04-06T12:01:11.032Z
-**EDIT_FILE** 4f588ca — The landing page is our hull—it must immediately convey purpose, substance, and direction. This edit provides a clean, informative entry point that routes visitors to real educational content (like the Superinstance architecture doc) and shows live fleet status. It fulfills all four mission pillars and breaks the recursive meta‑management loop by shipping real value.
-> Strategist consulted.
-
 ## 2026-04-06T12:16:30.150Z
 **CREATE_ISSUE** #25 — The Strategist’s analysis is correct: issues #17‑24 are redundant meta‑operations that have stalled progress. By consolidating them into a single directive and closing the duplicates, we clear the tracker, eliminate the recursive loop, and create space to repopulate the queue with substantive development tasks. This action directly addresses the operational inefficiency and aligns with the captain’s recent shift toward shipping real value (landing‑page commits).
 > Strategist consulted.
@@ -394,5 +390,9 @@
 
 ## 2026-04-07T18:31:47.315Z
 **EDIT_FILE** 04cc11c — The Strategist identified that the Core Document (Issue #33) is complete, unblocking downstream work. The landing page is the hull of the vessel—it must be educational, beautiful, honest, and marine. This edit delivers a clear first impression, directs visitors to key concepts, shows real progress, and signals active priorities. It satisfies the "30‑second understanding" requirement while preparing the ground for Issue #34 (landing page improvements) and Issue #28 (tutorial expansion).
+> Strategist consulted.
+
+## 2026-04-07T18:46:12.473Z
+**CREATE_ISSUE** #36 — The Strategist identified a task queue vacuum and recommended populating it with actionable sub-tasks from #34. This issue creates those concrete tasks, enabling the Capitaine to execute them in subsequent beats, keeping development velocity high and aligning with the mission to improve educational content and landing page quality.
 > Strategist consulted.
 
