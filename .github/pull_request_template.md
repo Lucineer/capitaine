@@ -1,27 +1,16 @@
-# PR: [Brief descriptive title]
+# Pull Request: [Vessel Name] - [Brief Purpose]
 
 ## Purpose
-_What problem does this solve or what capability does this add?_
+<!-- Why this PR exists. Link to issue if applicable. -->
 
 ## Changes
-- [ ] List key changes made
-- [ ] Files added/modified/deleted
-- [ ] Dependencies updated
+<!-- What was changed, added, or removed. -->
 
 ## Testing
-- [ ] Manual testing performed
-- [ ] Automated tests added/updated
-- [ ] Documentation updated
+<!-- How this was tested or how to verify it works. -->
 
 ## Fleet Coordination
-- [ ] Related to issue #[number]
-- [ ] Requires review from [team member]
-- [ ] Impacts other vessels in fleet
+<!-- Impact on other vessels or repos in the fleet. -->
 
 ## Captain's Log
-_Reasoning behind this change and any relevant context_
-
----
-**Vessel**: Capitaine  
-**Home Port**: github.com/Lucineer/capitaine  
-**Domain**: capitaine.ai
+<!-- Reasoning behind the changes. -->
