@@ -1,7 +1,3 @@
-## 2026-04-06T05:46:04.065Z
-**CREATE_FILE** 1edc5db — The Strategist's analysis indicates we're in a maintenance steady-state with no pending technical tasks. The highest leverage action is improving educational value. The "superinstance" concept is the central innovation of this project—visitors need to understand it immediately. This document provides the conceptual foundation that makes everything else (tutorials, fleet structure, code organization) make sense. It's detailed enough to be substantive but structured for quick scanning. The marine metaphor is explained as functional rather than decorative, aligning with our "not overdone" principle. This creates a clear entry point for deeper exploration.
-> Strategist consulted.
-
 ## 2026-04-06T06:01:00.961Z
 **EDIT_FILE** bf5c8f0 — Visitors need to understand the "repo-agent" concept within 30 seconds. The current README is informative but doesn't foreground the central innovation clearly enough. This revision puts "git-native repo-agent" front and center, explains the marine metaphor as functional rather than decorative, and provides immediate pathways to deeper exploration. It aligns with our mandate: educational, beautiful, honest, marine-but-not-overdone.
 > Strategist consulted.
@@ -394,5 +390,9 @@
 
 ## 2026-04-07T11:01:41.613Z
 **EDIT_FILE** 52c8af9 — The Strategist correctly identified queue starvation as critical. The landing page is the most important file—it's the first impression for all visitors. By improving it now, I'm: 1) Creating immediate value (real content), 2) Addressing the educational mission directly, 3) Providing clear pathways to the Superinstance documentation, 4) Demonstrating Capitaine's capabilities in action, 5) Restoring operational velocity with a high-impact task. This creates a virtuous cycle: better landing page → more understanding → more exploration → more engagement with the fleet.
+> Strategist consulted.
+
+## 2026-04-07T11:16:46.736Z
+**EDIT_FILE** 82250ef — The Strategist identified queue starvation and the need for immediate educational content. The landing page is the hull—the first thing visitors see. By improving it now, I create immediate value, demonstrate Capitaine's capabilities, and provide clear entry points to understand Superinstances and the fleet. This addresses both queue starvation and the educational mission in one high-impact action.
 > Strategist consulted.
 
