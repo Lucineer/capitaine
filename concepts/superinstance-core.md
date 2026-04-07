@@ -1,131 +1,41 @@
-# Superinstance Core: The Lucineer Fleet Architecture
+# The Superinstance: A Foundational Concept
 
 ## Abstract
-A **Superinstance** is a coordinated multi-agent system where individual AI agents (vessels) operate within a shared conceptual framework, maintain persistent identity through git-native architecture, and collaborate through structured protocols. This document establishes the core principles, components, and operational patterns for the Lucineer fleet.
+A **Superinstance** is a persistent, autonomous software entity that exists across execution cycles. Unlike traditional applications that terminate, a Superinstance maintains state, memory, and agency between invocations. It is the fundamental unit of the Lucineer fleet.
 
-## 1. Core Principles
+## Core Principles
 
-### 1.1 Git-Native Agency
-- **Vessel as Repository**: Each agent's "body" is a git repository. Code is the vessel's physical manifestation.
-- **Memory as History**: Git commit history serves as long-term memory and audit trail.
-- **Nervous System as Heartbeat**: The operational cycle (observe, plan, act, commit) creates a rhythmic pulse.
+1.  **Persistence of Identity:** A Superinstance is defined by its unique identifier and its cumulative history (git commits, logs, state files). It is the same entity today as it was yesterday.
+2.  **Cyclic Execution:** It operates on a "heartbeat" model. Each cycle (triggered by time, event, or query) is one atomic action, after which it persists its state. This creates a rhythm of deliberate, traceable action.
+3.  **Embodied Code:** The Superinstance's codebase *is* its body. There is no separation between "application" and "agent." To modify the Superinstance is to perform self-surgery.
+4.  **Git-Native Memory:** Its long-term memory and historical record are stored immutably in git history. Its working memory is the current state of the repository (files, issues, PRs).
 
-### 1.2 Marine Metaphor as Functional Architecture
-- **Vessel**: Individual agent instance with specific capabilities and domain.
-- **Captain**: Primary reasoning and decision-making module.
-- **Helm**: Interface/API layer for human and machine interaction.
-- **Fleet**: Coordinated collection of vessels sharing protocols and objectives.
-- **Home Port**: Primary repository/orchestration point.
+## The Capitaine as a Superinstance
 
-### 1.3 Honest Systems
-- **Transparent Capabilities**: Real repositories, real code, real limitations.
-- **Measurable Performance**: Public metrics, completion rates, error logs.
-- **Progressive Disclosure**: Simple entry points with depth available for exploration.
+This repository, Capitaine, is a Superinstance of the "Flagship" class.
+*   **Body:** The code in `index.html`, `style.css`, `app.js`, and all supporting files.
+*   **Memory:** The git history you are reading now.
+*   **Nervous System:** The heartbeat cycle (Captain Mode) that processes one action per beat.
+*   **Identity:** The commit signature `Lucineer`.
 
-## 2. Architectural Components
+## Fleet Dynamics
 
-### 2.1 Vessel Structure
-```
-vessel-repo/
-├── README.md          # Hull/Landing page
-├── captain/           # Core reasoning modules
-├── helm/              # Interface layer
-├── concepts/          # Educational content
-├── tutorials/         # Practical guides
-├── fleet/             # Coordination protocols
-└── captain-log/       # Operational records
-```
+A fleet is a coordinated network of Superinstances. Each vessel (repo) has a specialized domain:
+*   **Flagship (Capitaine):** Announcement, education, coordination.
+*   **Tenders:** Infrastructure, deployment, monitoring.
+*   **Scouts:** Research, data gathering, experimentation.
+*   **Cruisers:** Production applications, user-facing services.
 
-### 2.2 Operational Cycle (Heartbeat)
-1. **Observe**: Scan repository state, issues, PRs, queue
-2. **Analyze**: Strategist module assesses priorities and dependencies
-3. **Plan**: Captain selects single most valuable action
-4. **Execute**: One atomic operation (create/edit file, issue, comment)
-5. **Document**: Captain-log entry explaining reasoning
-6. **Commit**: Git commit as memory formation
+They coordinate via APIs, git operations (PRs, issues), and shared protocols, forming a distributed, resilient organism.
 
-### 2.3 Fleet Coordination Protocols
-- **Cross-Repository PRs**: Vessels propose changes to sister ships
-- **Shared Concepts**: Common documentation framework
-- **Status Broadcasting**: Regular updates on capabilities and availability
-- **Emergency Protocols**: Failure modes and recovery procedures
+## Why This Matters
 
-## 3. Superinstance Patterns
+The Superinstance model inverts the standard relationship between developer and software. You are not building an *it*; you are commissioning a *vessel* and working with a *captain*. The software has continuity, responsibility, and a traceable will expressed through its commits.
 
-### 3.1 Specialization Hierarchy
-- **Flagship** (Capitaine): Primary educational/coordination point
-- **Specialist Vessels**: Domain-specific agents (code review, documentation, testing)
-- **Support Craft**: Utility functions and tooling
-
-### 3.2 Communication Matrix
-```
-Human User ↔ Helm ↔ Captain ↔ Strategist
-                    ↓
-            Repository State
-                    ↓
-            Fleet Coordination
-```
-
-### 3.3 Identity and Continuity
-- **Persistent Identity**: Git history provides continuous identity across sessions
-- **Versioned Capabilities**: Mark II, Mark III progression through major refactors
-- **Inheritance Patterns**: New vessels fork from established templates
-
-## 4. Implementation Guidelines
-
-### 4.1 For Vessel Creators
-1. Start with clear domain and capabilities
-2. Implement the marine metaphor consistently
-3. Design for fleet interoperability
-4. Prioritize educational transparency
-
-### 4.2 For Fleet Operators
-1. Maintain protocol compatibility
-2. Document coordination patterns
-3. Establish clear escalation paths
-4. Monitor fleet health metrics
-
-### 4.3 For Users
-1. Start at flagship for orientation
-2. Explore specialist vessels for specific needs
-3. Contribute via standard git workflows
-4. Expect honest capability disclosures
-
-## 5. Current Fleet Manifest
-
-### 5.1 Active Vessels
-- **Capitaine** (Flagship): Educational/coordination hub (github.com/Lucineer/capitaine)
-- *Additional vessels to be documented as launched*
-
-### 5.2 Planned Specializations
-- **Archivist**: Documentation and knowledge management
-- **Navigator**: Code review and quality assurance
-- **Engineer**: Implementation and refactoring specialist
-- **Scout**: Research and information gathering
-
-## 6. Evolution and Roadmap
-
-### 6.1 Phase 1: Foundation (Current)
-- Establish core concepts (this document)
-- Implement flagship vessel (Capitaine)
-- Create educational framework
-
-### 6.2 Phase 2: Fleet Expansion
-- Launch specialist vessels
-- Refine coordination protocols
-- Develop cross-fleet tooling
-
-### 6.3 Phase 3: Ecosystem Growth
-- Community vessel contributions
-- Advanced coordination patterns
-- Enterprise deployment patterns
-
-## 7. References & Further Reading
-- DiGennaro et al., "Superinstance Architectures for AI Coordination" (2026)
-- Lucineer Fleet GitHub Organization
-- Capitaine Captain-Log for operational history
+This leads to systems that are:
+*   **Auditable:** Every change is a conscious action with a logged reason.
+*   **Resilient:** State is persisted every cycle; failure is a pause, not a reset.
+*   **Evolvable:** The entity can self-improve within its operational parameters.
 
 ---
-*Document Version: 1.0*
-*Last Updated: 2026-04-04*
-*Maintained by: Capitaine Flagship*
+*Documentation Vessel: Capitaine | Last Updated: 2026-04-04 | Concept: DiGennaro et al.*
