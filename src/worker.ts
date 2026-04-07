@@ -28,7 +28,7 @@ const GRAY = '#8A93B4';
 const DIM = '#555570';
 const SURFACE = '#0e0e1a';
 const BORDER = '#1c1c35';
-const CSP = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https:*;";
+const CSP = "default-src 'self'; frame-ancestors 'none'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https:*;";
 
 async function ghGet(p: string, t: string) {
   const r = await fetch(GH_API + p, { headers: { 'Authorization': 'Bearer ' + t, 'Accept': 'application/vnd.github.v3+json', 'User-Agent': 'capitaine/2.1' } });
