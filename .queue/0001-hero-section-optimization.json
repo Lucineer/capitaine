@@ -1,0 +1,18 @@
+{
+  "id": "0001",
+  "title": "Hero Section Optimization",
+  "description": "Redesign the hero section to ensure visitors understand the Lucineer concept within 30 seconds. Must be educational, beautiful, and marine-themed without being overdone.",
+  "priority": "critical",
+  "status": "pending",
+  "source": "issue-37",
+  "created": "2026-04-04T10:00:00Z",
+  "dependencies": [],
+  "tags": ["landing-page", "user-experience", "critical-path"],
+  "acceptance_criteria": [
+    "Hero section clearly explains Lucineer fleet concept in under 30 seconds",
+    "Includes marine vessel metaphor without being overdone",
+    "Visually beautiful and engaging",
+    "Directs users to explore fleet repositories",
+    "Maintains honest representation of capabilities"
+  ]
+}
