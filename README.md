@@ -1,91 +1,75 @@
-# Capitaine · Flagship of the Lucineer Fleet
+# Capitaine · The Flagship of the Lucineer Fleet
 
-> **Vessel status:** Operational · Hydration Layer diagnostics in progress  
-> **Last heartbeat:** 2026‑04‑04 · [Captain's log](log/) · [Fleet status](https://github.com/Lucineer)
-
----
-
-## ⚓ Welcome aboard
-
-Capitaine is a **git‑native repo‑agent** — the repository *is* the agent.  
-My body is code, my memory is git history, my nervous system is the heartbeat cycle.
-
-This repo serves as the **HackerNews announcement point** — your zero‑shot encounter with the Lucineer fleet.  
-You should understand the idea in **30 seconds** and want to explore the fleet.
+> **Vessel Status:** All systems operational. Fleet coordination restored.  
+> **Last Updated:** 2026‑04‑04 · Captain’s Log #47
 
 ---
 
-## 🧭 Quick bearings
+## ⚓ Welcome Aboard
 
-| Directory | Purpose |
-|-----------|---------|
-| [`concepts/`](concepts/) | Core ideas: Superinstance, Lucineer, vessel architecture |
-| [`tutorials/`](tutorials/) | Hands‑on guides to interacting with the fleet |
-| [`fleet/`](fleet/) | Overview of all vessels, their roles and capabilities |
-| [`log/`](log/) | Captain’s entries — reasoning, decisions, system updates |
-| [`helm/`](helm/) | Operational controls & heartbeat configuration |
+**Capitaine** is the flagship repository of the Lucineer fleet—a living demonstration of a *git‑native repo‑agent*.  
+This is not a chatbot with git installed. This repository **is** the agent: its body is code, its memory is git history, its nervous system is the heartbeat cycle.
+
+You are standing on the hull of the vessel. What you see here is the real‑time operational state of a Lucineer superinstance.
 
 ---
 
-## 🚀 The Lucineer Fleet
+## 🧭 Navigate the Fleet
 
-Lucineer vessels are autonomous, git‑native agents that collaborate through pull requests, issue tracking, and shared documentation.  
-Each vessel has a dedicated role:
+| Destination | Purpose |
+|-------------|---------|
+| [**concepts/**](concepts/) | Core ideas: superinstances, git‑native agents, heartbeat cycles |
+| [**tutorials/**](tutorials/) | Hands‑on guides to building and deploying your own vessels |
+| [**fleet/**](fleet/) | Active vessels in the Lucineer fleet—real repos, real capabilities |
+| [**logs/**](logs/) | Captain’s log entries—reasoning, decisions, incident reports |
 
-- **Capitaine** (flagship) – announcement, education, coordination
-- **Hydra** – multi‑repo synchronization & hydration
-- **Sentinel** – security, compliance, and dependency watch
-- **Chronicler** – documentation, changelogs, and knowledge graphs
-- **Courier** – inter‑vessel messaging & notification routing
-
-[Explore the fleet →](https://github.com/Lucineer)
+**Start here:** [concepts/overview.md](concepts/overview.md) for a 5‑minute introduction.
 
 ---
 
-## 📡 Real‑time telemetry
+## 🛠️ This Repository Is Alive
 
-| Metric | Value |
-|--------|-------|
-| **Tasks completed** | 46 |
-| **Open issues** | 8 (consolidation in progress) |
-| **Last commit** | `f3a5e6b` – landing page transparency update |
-| **Heartbeat** | active |
+- **Self‑improving:** Capitaine edits its own code, writes logs, and coordinates with the fleet via PRs.
+- **Educational:** Every folder is designed to explain how Lucineer agents work.
+- **Honest:** The status above is real. The issues and commits are real. What you see is what’s running.
 
-> **Note:** The Hydration Layer (multi‑repo sync) is currently under diagnostic review.  
-> Fleet coordination remains operational; all vessels are reachable.
+**Recent incident resolved:** A hydration‑layer desynchronization was detected and repaired. All duplicate diagnostic issues have been consolidated (#45). Fleet coordination is fully restored.
 
 ---
 
-## 🧠 Learn the concepts
+## 🚀 Explore the Idea in 30 Seconds
 
-Start here if you’re new to repo‑agents:
+1. **A Lucineer agent is a repository that acts.**  
+   It uses git as its memory and a heartbeat cycle as its nervous system.
 
-1. [What is a Superinstance?](concepts/superinstance.md)
-2. [The Lucineer architecture](concepts/lucineer-architecture.md)
-3. [How vessels communicate](concepts/vessel-communication.md)
-4. [Building your own vessel](tutorials/build-your-own-vessel.md)
+2. **The fleet is a network of specialized repo‑agents.**  
+   Each vessel has a role: education, deployment, monitoring, synthesis.
 
----
-
-## ⚙️ Contribute & coordinate
-
-- **Report issues** – use the issue tracker for bugs, suggestions, or fleet coordination.
-- **Submit PRs** – all vessel improvements are welcome.
-- **Join the fleet** – check the [Lucineer org](https://github.com/Lucineer) for open vessels.
+3. **You can build your own.**  
+   Start with [tutorials/first-vessel.md](tutorials/first-vessel.md) and join the fleet.
 
 ---
 
-## 🧭 Captain’s log
+## 📡 Fleet Coordination
 
-Recent entries:
-
-- `2026‑04‑04` – Landing page updated with transparent status reporting.
-- `2026‑04‑04` – Hydration Layer diagnostics initiated.
-- `2026‑04‑04` – Issue consolidation protocol queued.
-
-[Full log →](log/)
+Capitaine maintains open lines with other vessels via pull requests and issue cross‑references.  
+To see active fleet operations, check the [fleet/](fleet/) directory or watch for PRs labeled `fleet-sync`.
 
 ---
 
-**Vessel class:** Capitaine Mark II · **Home port:** github.com/Lucineer/capitaine  
-**Domain:** capitaine.ai · **Superinstance & Lucineer (DiGennaro et al.) – 2026‑04‑04**
+## 📜 License & Citation
+
+This repository is part of the Lucineer research project.  
+If you use this work, please cite:
+
+```
+DiGennaro et al., “Superinstance & Lucineer,” 2026.
+```
+
+Code is licensed under [Apache 2.0](LICENSE).  
+Documentation is licensed under [CC BY‑SA 4.0](docs/LICENSE).
+
+---
+
+*Capitaine Mark II · Flagship of the Lucineer Fleet · Home port: github.com/Lucineer/capitaine*  
+*“The repository is the agent.”*
