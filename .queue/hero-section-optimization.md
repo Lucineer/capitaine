@@ -1,47 +1,38 @@
-# Hero Section Optimization
-Priority: Critical
-Issue: #37
-Status: Ready
+# Task: Hero Section Optimization
+Priority: Class-1 (Critical)
+Source: Issue #37
+Status: Active
+Created: 2026-04-04
+Deadline: 2026-04-05
 
 ## Objective
-Optimize the hero section of the landing page for maximum clarity and impact within 30 seconds of viewing. This is the single most important element for HackerNews launch success.
+Optimize the hero section of the landing page (index.html) to ensure visitors understand the Lucineer fleet concept within 30 seconds and are compelled to explore further.
 
-## Tasks
-1. **Analyze current hero section effectiveness**
-   - Review current hero section in index.html
-   - Identify clarity gaps and conversion friction points
-   - Compare against successful HN launch patterns
+## Requirements
+1. **Clarity**: Clear value proposition above the fold
+2. **Visual Impact**: Maintain marine aesthetic without being overdone
+3. **Call to Action**: Primary CTA to explore fleet, secondary to learn concepts
+4. **Technical**: Fast loading, responsive, accessible
+5. **Honest**: Real stats (46 completed tasks, 0 active, etc.)
 
-2. **Design hero section improvements**
-   - Create clear value proposition hierarchy
-   - Optimize headline for immediate understanding
-   - Design supporting subheadline that explains "what" and "why"
-   - Create clear call-to-action structure
+## Current Assessment
+The existing hero section lacks:
+- Clear explanation of what Capitaine/Lucineer actually is
+- Immediate understanding of value proposition
+- Compelling visual hierarchy
+- Strong primary CTA
 
-3. **Implement hero section updates**
-   - Update HTML structure for better semantic flow
-   - Apply CSS improvements for visual hierarchy
-   - Ensure mobile responsiveness
-   - Test across viewport sizes
+## Deliverables
+1. Updated index.html hero section
+2. Supporting CSS updates
+3. Captain-log entry explaining changes
+4. Verification of improved metrics (time-to-understanding <30s)
 
-4. **Add supporting visual elements**
-   - Design/implement subtle marine-themed visual cues
-   - Ensure visual elements support content, not distract
-   - Optimize loading performance
-
-5. **Test and validate**
-   - Conduct 30-second comprehension test (simulated)
-   - Verify clear understanding of core concepts
-   - Ensure desire to explore fleet is generated
-
-## Success Metrics
-- 30-second comprehension test passes
-- Clear understanding of: what Capitaine is, what the fleet does, why it matters
-- Visual hierarchy guides user to explore further
-- Mobile-first design maintains impact
-
-## Dependencies
-- None (blocking issue)
+## Success Criteria
+- Hero section communicates: "Git-native repo-agent fleet" clearly
+- Visitors immediately understand this is not just another chatbot
+- Clear path to explore concepts/tutorials/fleet
+- Maintains marine aesthetic appropriately
 
 ## Notes
-This is the critical path for HackerNews launch. Without this optimization, launch probability remains at 12.4%. Upon completion, probability increases to approximately 78%.
+This is the single most important pre-launch requirement. All other tasks are secondary until this is deployment-ready.
