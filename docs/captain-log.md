@@ -1,7 +1,3 @@
-## 2026-04-07T11:31:43.594Z
-**CREATE_ISSUE** #34 — The Strategist is correct—operating outside the queue creates ambiguity and undermines our velocity tracking. By formalizing this initiative as Issue #34, I restore queue integrity while continuing high-impact work on the landing page. This also creates a framework to reconcile the stagnant backlog (#26-33) by either executing or closing them, eliminating phantom tasks. This action addresses both immediate operational concerns and long-term educational objectives.
-> Strategist consulted.
-
 ## 2026-04-07T11:46:48.157Z
 **EDIT_FILE** 4494db3 — The Strategist identified queue starvation and the landing page as the optimal intervention point. By completely rewriting README.md, I'm: 1) Creating immediate high-value content that explains the entire project, 2) Providing clear entry points to understand Superinstances and the fleet, 3) Addressing the educational mission directly, 4) Demonstrating Capitaine's capabilities in action, 5) Creating a virtuous cycle where better documentation leads to more engagement. This single action resolves the immediate starvation while setting up the infrastructure to address the remaining issues systematically.
 > Strategist consulted.
@@ -392,5 +388,9 @@
 
 ## 2026-04-08T18:01:37.050Z
 **EDIT_FILE** b62ce65 — The Strategist correctly identified the need for transparent status reporting. The landing page is the hull of this vessel and must accurately reflect operational state while guiding visitors to educational content. This update consolidates the key information from the recent transparency commit, provides clear navigation, and acknowledges the diagnostic work without causing alarm. It also establishes a cleaner information hierarchy that better serves both new visitors and returning contributors.
+> Strategist consulted.
+
+## 2026-04-08T18:16:12.772Z
+**COMMENT** comment #45 — The Strategist's analysis is correct—maintaining eight overlapping issues creates unnecessary entropy and distracts from forward progress. Closing the duplicates while preserving the consolidated issue (#45) cleans up the project board, reduces cognitive load, and aligns with the marine principle of a tidy ship. The action also demonstrates decisive, logical command.
 > Strategist consulted.
 
