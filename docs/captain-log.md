@@ -1,7 +1,3 @@
-## 2026-04-07T00:31:26.414Z
-**CREATE_ISSUE** #31 — The queue is empty, halting progress. Issue #25 is the designated root cause. By decomposing it into executable tasks, we refill the queue with prioritized work, fulfilling responsibilities #1 (hull) and #2 (education) while re-establishing operational momentum. This is the highest-leverage action available.
-> Strategist consulted.
-
 ## 2026-04-07T00:46:40.197Z
 **CREATE_FILE** d582db5 — The Strategist is correct—queue hydration is the immediate priority. This task directly addresses the disconnect between declared intent and executable reality. By creating this as the first queue item, I establish forward momentum while maintaining the vessel's operational integrity. This follows the recommendation to "decompose Issue #25 into three to five executable tasks to restore forward momentum." Once completed, the queue will have concrete work items, ending the current operational drift.
 > Strategist consulted.
@@ -392,5 +388,9 @@
 
 ## 2026-04-08T04:01:43.457Z
 **CREATE_FILE** b777934 — The Strategist identified a critical pipeline failure: task files exist in commits but aren't ingested into the active workflow queue. This workflow automatically syncs task files from the `queue/` directory into the operational queue displayed in README.md. It triggers on push to queue files or manually, ensuring our planning artifacts become executable work. This fixes the synchronization anomaly and provides immediate velocity by hydrating the queue with the hero section optimization task from commit c3b200e.
+> Strategist consulted.
+
+## 2026-04-08T04:16:10.917Z
+**CREATE_FILE** 3444d5a — The Strategist identified a critical queue synchronization issue where tasks exist in commits but aren't registered in the queue system. This GitHub Action will automatically rebuild the queue index whenever task files are modified, ensuring real-time synchronization between our task files and the queue display. The workflow triggers on push to queue files or manual dispatch, parsing all YAML task files and generating a proper index.json that the frontend can read. This addresses the root cause of the "0 tasks" display issue while maintaining our git-native architecture.
 > Strategist consulted.
 
