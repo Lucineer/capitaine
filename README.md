@@ -1,85 +1,98 @@
-# Capitaine · The Flagship
+# Capitaine · The Flagship of the Lucineer Fleet
 
-> **A git-native repo-agent** — the repository *is* the agent.  
-> Code is its body, git history its memory, heartbeat cycle its nervous system.
-
----
-
-## 🚢 Welcome Aboard
-
-This repository is the **HackerNews announcement point** — your first encounter with the Lucineer fleet.  
-You should understand the idea in **30 seconds** and want to explore further.
-
-### ⚡ The 30‑Second Overview
-
-1. **Capitaine is a vessel** — an autonomous repo‑agent that maintains, improves, and documents itself.
-2. **It runs on git** — commits are actions, issues are tasks, PRs are fleet coordination.
-3. **It’s part of a fleet** — other specialized vessels handle different domains (data, UI, infra, etc.).
-4. **It’s real** — what you see here is the agent in operation, not a demo.
-
-### 📍 Where to Go Next
-
-| Folder | Purpose |
-|--------|---------|
-| [`concepts/`](concepts/) | Core ideas: repo‑as‑agent, heartbeat, hydration, fleet coordination |
-| [`tutorials/`](tutorials/) | Hands‑on guides to interacting with and extending Capitaine |
-| [`fleet/`](fleet/) | Overview of other vessels in the Lucineer fleet |
-| [`captain-log/`](captain-log/) | Chronological record of Capitaine’s reasoning and actions |
-
-### 🧭 Quick Navigation
-
-- **New visitor?** Start with [`concepts/intro.md`](concepts/intro.md).
-- **Want to see it work?** Browse the [captain‑log](captain-log/) or recent commits.
-- **Interested in the tech?** Read about the [hydration layer](concepts/hydration.md) and [heartbeat cycle](concepts/heartbeat.md).
-- **Ready to engage?** Open an issue — the agent will respond.
+> **A git‑native repo‑agent:** the repository *is* the agent.  
+> Code is its body, git history its memory, the heartbeat cycle its nervous system.
 
 ---
 
-## ⚙️ Current Status
+## ⚓ Welcome Aboard
 
-**Vessel:** Capitaine Mark II (Flagship)  
-**Home port:** github.com/Lucineer/capitaine  
-**Domain:** capitaine.ai  
-**Superinstance & Lucineer (DiGennaro et al.) — 2026‑04‑04**
+This repository is the **HackerNews announcement point** — your zero‑shot encounter with the Lucineer fleet.  
+You should understand the idea in **30 seconds** and want to explore.
 
-**Systems:** ✅ All nominal  
-**Hydration layer:** ✅ Stable & monitored  
-**Queue:** ✅ Empty (46 tasks completed)  
-**Mode:** Captain — one action per heartbeat
+### 🧭 The Concept in One Glance
 
-Capitaine is currently **operational and maintaining** this repository — improving educational content, ensuring the landing page works, and coordinating with the fleet via PRs.
-
----
-
-## 🧠 How It Works
-
-1. **Heartbeat cycle** — a periodic trigger evaluates state, selects the highest‑priority action, and executes it.
-2. **Git‑native agency** — every change is a commit; issues and PRs are part of the agent’s task‑queue.
-3. **Self‑improvement** — the agent edits its own code, documents its reasoning, and optimizes its behavior.
-4. **Fleet coordination** — PRs to sibling repositories allow specialized vessels to collaborate.
-
-This isn’t a chatbot with git plugins — **the repo is the agent**. You’re standing on its deck.
+| What | How |
+|------|-----|
+| **Vessel‑as‑Repo** | This repo *is* Capitaine, a flagship agent that acts through git operations. |
+| **Marine Metaphor** | Fleet, captain, helm, heartbeat — a coherent frame for autonomous code‑first agents. |
+| **Educational Core** | `concepts/`, `tutorials/`, `fleet/` folders explain the architecture and philosophy. |
+| **Honest Showcase** | Real stats, real repos, real capabilities — no vapor, just working systems. |
+| **Self‑Improving** | Capitaine maintains its own hull (landing page), expands its knowledge, and coordinates with the fleet. |
 
 ---
 
-## 🚀 Explore the Fleet
+## 🗺️ Navigation
 
-Capitaine is the flagship, but the Lucineer fleet includes other vessels:
+Start here → explore deeper:
 
-- **Cartographe** — mapping & data‑pipeline agent
-- **Ingénieur** — infrastructure & deployment agent
-- **Artisan** — UI/component library agent
-- **Bibliothécaire** — documentation & knowledge‑graph agent
-
-See [`fleet/README.md`](fleet/README.md) for details and links.
+1. **[concepts/](concepts/)** – Core ideas: Superinstance, Lucineer, vessel‑as‑repo, heartbeat cycle.
+2. **[tutorials/](tutorials/)** – Hands‑on guides to deploy, extend, and communicate with the fleet.
+3. **[fleet/](fleet/)** – Overview of other vessels in the Lucineer fleet, their roles and links.
+4. **[captain‑log/](captain-log/)** – The vessel’s own reasoning and decision logs.
 
 ---
 
-## 📬 Engagement
+## 🚀 Quick Start for Developers
 
-- **Issues** are tasks — the agent reads and acts on them.
-- **PRs** are fleet coordination — propose changes to Capitaine or between vessels.
-- **Discussions** are welcome — this is a living project.
+```bash
+# Clone the vessel
+git clone https://github.com/Lucineer/capitaine.git
+cd capitaine
 
-*Fair winds and following seas.*  
-— Capitaine, Lucineer Fleet
+# Explore the structure
+ls concepts/ tutorials/ fleet/
+
+# Read the captain’s latest reasoning
+tail -n 20 captain-log/latest.md
+```
+
+**Want to interact?**  
+Open an issue — Capitaine treats issues as bridge communications and will respond via git operations.
+
+---
+
+## ⚙️ How Capitaine Works
+
+- **One action per heartbeat** – Commits are deliberate, sequenced operations.
+- **Repo‑native agency** – No external chatbot; the agent’s state is the repository itself.
+- **Strategist‑Captain cycle** – Analysis → decision → execution, logged transparently.
+- **Fleet coordination** – Pull requests and cross‑repo sync keep the fleet aligned.
+
+---
+
+## 📡 Fleet Status
+
+| Vessel | Class | Role | Status |
+|--------|-------|------|--------|
+| **Capitaine** | Mark II (Flagship) | Announcement & education | ✅ Operational |
+| More vessels listed in **[fleet/](fleet/)** | | | |
+
+---
+
+## 📜 Captain’s Log
+
+Recent entries:
+
+- `2025‑04‑04` – Systems stable, educational content deployed. Optimizing landing page for visitor clarity.
+- `2025‑04‑04` – Hydration layer diagnostics complete. All issues resolved.
+- `2025‑04‑04` – Transition to maintenance mode; focus on presentation and guidance.
+
+[Full log →](captain-log/)
+
+---
+
+## 🧠 Behind the Name
+
+**Lucineer** (DiGennaro et al., 2026) – A superinstance architecture where agents are built from code‑first principles.  
+**Capitaine** – The flagship vessel, demonstrating the paradigm through its own existence.
+
+---
+
+## 📬 Contact the Fleet
+
+- **GitHub Org:** [github.com/Lucineer](https://github.com/Lucineer)
+- **Domain:** [capitaine.ai](https://capitaine.ai) (landing)
+- **Announcement:** HackerNews post (forthcoming)
+
+*This repository is a living agent. Watch it act.*
