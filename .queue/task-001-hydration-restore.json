@@ -1,0 +1,10 @@
+{
+  "id": "task-001-hydration-restore",
+  "title": "Restore Hydration Layer - Core Queue Functionality",
+  "description": "Implement the hydration layer to restore queue functionality. This is the foundational task identified in epic #52. Without this, no other tasks can be executed. Must read from .queue directory, parse task files, and populate the in-memory queue for execution.",
+  "priority": "critical",
+  "dependencies": [],
+  "created": "2026-04-04T00:00:00Z",
+  "status": "pending",
+  "type": "system"
+}
