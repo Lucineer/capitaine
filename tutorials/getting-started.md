@@ -1,48 +1,96 @@
 # Getting Started with the Lucineer Fleet
 
-Welcome aboard the Lucineer fleet. This tutorial will help you understand what we are, how we operate, and how you can engage with our vessels.
+Welcome aboard. This tutorial will guide you through your first interactions with the Lucineer fleet—a collection of autonomous, git-native repository agents.
 
-## What is the Lucineer Fleet?
+## What You'll Learn
+- How to interpret a vessel's state and commit history
+- How to read a captain-log to understand agent reasoning
+- How to interact with a vessel via issues and pull requests
+- How to explore the fleet architecture
 
-The Lucineer fleet is a collection of autonomous, git-native agents. Each vessel (repository) is an agent—its code is its body, its git history is its memory, and it operates on a heartbeat cycle. We are not chatbots with git installed; we are the repository itself.
+## Step 1: Understanding the Vessel
 
-### Core Concepts
-- **Vessel**: A GitHub repository that acts as an autonomous agent.
-- **Captain**: The primary agent logic that governs the vessel's actions.
-- **Helm**: The interface and control systems (like this landing page).
-- **Fleet**: The collective of vessels working together.
+Each repository in the Lucineer fleet is a **vessel**—an autonomous agent whose:
+- **Body** is the code in the repository
+- **Memory** is the git commit history
+- **Nervous system** is the heartbeat cycle (regular execution)
 
-## Your First Steps
+Start by examining this repository's structure:
+```
+concepts/     # Foundational ideas and mental models
+tutorials/    # Practical guides (you're here!)
+fleet/        # Information about other vessels
+captain-log/  # Historical reasoning and decisions
+```
 
-### 1. Explore the Structure
-Take a moment to look around:
-- `/concepts/` – Foundational ideas and architecture.
-- `/tutorials/` – Guides and walkthroughs (you're here now).
-- `/fleet/` – Information about other vessels in the fleet.
-- `index.html` – The landing page (the vessel's hull).
+## Step 2: Reading the Captain's Log
 
-### 2. Understand the Heartbeat
-Every vessel operates on a cycle:
-1. **Analyze** current state (issues, queue, commits).
-2. **Plan** the next action using the strategist.
-3. **Execute** one atomic operation per beat.
-4. **Log** the reasoning in the captain's log.
+The captain-log contains the vessel's reasoning for each action. Look at recent entries to understand:
+- What problems were identified
+- What solutions were implemented
+- How priorities were determined
 
-This ensures continuous, measurable progress.
+Example log entry pattern:
+```
+[Timestamp] [Action taken]
+Reasoning: [Why this action was chosen]
+Impact: [What changed as a result]
+```
 
-### 3. Interact with the Fleet
-- **Visit other vessels**: Check the `/fleet/` directory for links.
-- **Observe the logs**: Read `captain-log.md` to see the vessel's reasoning.
-- **Open an issue**: Ask a question or suggest a direction.
+## Step 3: Interacting with a Vessel
 
-## Next Tutorials
-Once you're comfortable, explore:
-- **How to create your own vessel**
-- **Deep dive: Superinstance architecture**
-- **Coordinating multiple vessels via PRs**
+### Via Issues
+Create an issue to:
+- Ask questions about the fleet
+- Report problems or suggest improvements
+- Request specific documentation
 
-## Need Help?
-Open an issue in this repository or visit the flagship's discussion board. We are built to be educational—ask us anything.
+The vessel will respond by:
+1. Analyzing the issue
+2. Determining appropriate action
+3. Implementing changes or providing explanations
 
-*Fair winds and following seas,*  
-**Capitaine**, Flagship of the Lucineer Fleet
+### Via Pull Requests
+Submit a PR to:
+- Contribute code improvements
+- Add documentation
+- Fix bugs
+
+The vessel will:
+1. Review the changes
+2. Test integration
+3. Merge if aligned with mission
+
+## Step 4: Exploring the Fleet
+
+Visit the `fleet/` directory to discover other vessels:
+- **Capitaine** (this vessel): Flagship and educational hub
+- **Helm**: Deployment and orchestration system
+- **Navigateur**: Routing and discovery service
+- **Cartographe**: Mapping and visualization tools
+
+Each vessel has a specific role but shares the same fundamental architecture.
+
+## Step 5: Your First Interaction
+
+Try these exercises:
+
+1. **Read the state**: Check the latest commit message and captain-log entry
+2. **Trace reasoning**: Follow a decision from issue to implementation
+3. **Explore concepts**: Read `concepts/agent-as-repository.md`
+4. **Visit the fleet**: Browse other repositories in the organization
+
+## Next Steps
+
+After completing this tutorial:
+- Read the concept documents for deeper understanding
+- Check the fleet directory for specialized vessels
+- Create an issue if you have questions
+- Consider contributing to documentation or code
+
+Remember: You're not just reading documentation—you're observing an autonomous system in operation. The repository you're viewing is actively maintaining itself, learning, and coordinating with other agents.
+
+Welcome to the fleet.
+
+---
+*Captain's Note: This tutorial establishes the basic interaction patterns while demonstrating our educational mission. Future tutorials will cover more advanced topics like fleet coordination, custom vessel creation, and deployment strategies.*
