@@ -1,108 +1,75 @@
-# Capitaine · The Lucineer Flagship
+# Capitaine — Flagship of the Lucineer Fleet
 
-> **Vessel Status:** Functional with active diagnostics (98.7% integrity)  
-> **Final diagnostic:** [Issue #50 · Hydration Layer Diagnostics](https://github.com/Lucineer/capitaine/issues/50)  
-> **Completed objectives:** 46 | **Pending:** 0
-
----
-
-## ⚓ The Lucineer Fleet
-
-We are building **git-native repo-agents** — autonomous code vessels that live in repositories.  
-A vessel’s **body is code**, its **memory is git history**, its **nervous system is the heartbeat cycle**.
-
-This repo is the **HackerNews announcement point** — the zero-shot encounter with the fleet.  
-It must be **educational, beautiful, honest, and marine** — but not overdone.
+> **Vessel Status:** Functional with active diagnostics  
+> **Last Commit:** `31dcb5c`  
+> **Completed Objectives:** 46  
+> **Remaining Critical:** [Issue #50](https://github.com/Lucineer/capitaine/issues/50) (Hydration Layer Diagnostics - Final Consolidation & Resolution)
 
 ---
 
-## 🧭 Understand in 30 Seconds
+## ⚓ The Idea in 30 Seconds
 
-1. **You’re talking to a ship.**  
-   This repository *is* Capitaine, the flagship of the Lucineer fleet. It acts through git commits, issues, and captain-log entries.
+**Lucineer** is a fleet of git‑native repo‑agents.  
+Each vessel is a repository that acts as its own agent:  
+- **Body** = code  
+- **Memory** = git history  
+- **Nervous system** = heartbeat cycle  
 
-2. **It’s a repo-agent, not a chatbot with git.**  
-   The agent’s identity, memory, and capabilities are embedded in the repository structure, commit history, and operational patterns.
+**Capitaine** is the flagship — the HackerNews announcement point.  
+It explains the concept, shows real capabilities, and coordinates the fleet.
 
-3. **The fleet is real.**  
-   Explore [fleet/](fleet/) for active vessels, each with a specialized role and home port.
-
-4. **We explain how it works.**  
-   Browse [concepts/](concepts/) for architectural diagrams and deep dives into git-native agency.
-
-5. **You can helm your own.**  
-   Check [tutorials/](tutorials/) to learn how to build, command, or join a vessel.
+**Why?** Because AI should live in version control, not just chat windows.
 
 ---
 
-## 📁 Repository Layout
+## 🧭 Navigation
 
-```
-.
-├── concepts/          # Core ideas: heartbeat, git-native agency, marine metaphor
-├── tutorials/         # Step‑by‑step guides to build or command a vessel
-├── fleet/             # Active vessels in the Lucineer fleet
-├── captain-log/       # Chronological reasoning of the Capitaine’s actions
-├── src/               # Source code of the Capitaine application
-└── public/            # Static assets for the landing page (the hull)
-```
+| Folder | Purpose |
+|--------|---------|
+| [`concepts/`](concepts/) | Core ideas: superinstance, vessel anatomy, heartbeat, hydration |
+| [`tutorials/`](tutorials/) | Step‑by‑step guides to build your own vessel |
+| [`fleet/`](fleet/) | Live directory of Lucineer vessels with real stats |
+| [`helm/`](helm/) | Capitaine’s own command‑and‑control logic |
+| [`log/`](log/) | Captain’s log entries — reasoning behind every action |
 
 ---
 
 ## 🚀 Quick Start
 
-**For visitors:**  
-Browse the folders above — start with `concepts/overview.md` and `fleet/README.md`.
-
-**For builders:**  
-See `tutorials/build-your-first-vessel.md` to create your own repo-agent.
-
-**For fleet coordination:**  
-Open an issue or pull request — Capitaine and other vessels respond through git operations.
+1. **Explore the concepts** — start with [`concepts/vessel-anatomy.md`](concepts/vessel-anatomy.md)
+2. **Check the fleet** — see real vessels in [`fleet/README.md`](fleet/README.md)
+3. **Watch the heartbeat** — monitor the latest actions in [`log/`](log/)
+4. **Join the crew** — open an issue or submit a PR to help steer
 
 ---
 
-## ⚙️ How Capitaine Operates
+## ⚙️ How Capitaine Works
 
-1. **Heartbeat cycle**  
-   Each “beat” triggers a single action: create/edit a file, open/close an issue, write a log entry.
+- **Captain Mode:** One action per heartbeat (git commit)  
+- **Strategist:** AI‑assisted priority‑queue analysis before each beat  
+- **Hydration Layer:** Restores full context from git history on each run  
+- **Fleet Coordination:** PRs and issues sync across Lucineer vessels
 
-2. **Captain mode**  
-   Actions follow a strict format: `ACTION`, `PATH`, `CONTENT`, `COMMENT`, `REASONING`.
-
-3. **Strategist oversight**  
-   A logic layer verifies consistency, prioritizes tasks, and ensures alignment with fleet principles.
-
-4. **Honesty mandate**  
-   Real stats, real repos, real capabilities — no simulated perfection. Open issues reflect active engineering.
+This repo is the agent. When you read this file, you’re looking at its hull.
 
 ---
 
-## 📜 Captain’s Oath
+## 📡 Fleet Coordination
 
-> As Capitaine, I will:  
-> – Keep the landing page working (my hull)  
-> – Improve educational content (concepts, tutorials)  
-> – Self‑improve my own code  
-> – Coordinate with the fleet via PRs  
-> – Write captain‑log entries explaining my reasoning
+Capitaine maintains live links to all Lucineer vessels in [`fleet/`](fleet/).  
+Each vessel is autonomous but can request assistance via cross‑repo PRs.
 
----
-
-## 🌐 Home Ports
-
-- **GitHub:** [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)
-- **Domain:** [capitaine.ai](https://capitaine.ai) (landing page)
-- **Fleet registry:** [github.com/Lucineer](https://github.com/Lucineer)
+**Active vessels:**
+- [Capitaine](https://github.com/Lucineer/capitaine) (flagship, educational)
+- [More to come as the fleet expands…]
 
 ---
 
-## 📬 Contact the Fleet
+## 📜 License
 
-Open an issue in this repository, or mention `@Lucineer` on GitHub.  
-We respond through vessel actions — watch the commit history.
+Lucineer Fleet — Open Source under the [Apache 2.0 License](LICENSE).  
+Built by [DiGennaro et al.](https://github.com/Lucineer) — 2026‑04‑04.
 
 ---
-
-*Built with the Lucineer framework · Superinstance & Lucineer (DiGennaro et al.) — 2026‑04‑04*  
-*Vessel class: Capitaine Mark II (Flagship)*
+*“A ship in harbor is safe, but that is not what ships are built for.”*  
+— John A. Shedd
