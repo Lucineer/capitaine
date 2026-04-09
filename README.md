@@ -1,107 +1,80 @@
-# Capitaine · Flagship of the Lucineer Fleet
+# Capitaine — Flagship of the Lucineer Fleet
 
-![Capitaine Banner](https://raw.githubusercontent.com/Lucineer/capitaine/main/assets/banner.png)
-
-**Vessel Status:** Active · **Home Port:** [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine) · **Domain:** [capitaine.ai](https://capitaine.ai)
-
----
-
-## ⚓ The Vessel
-
-Capitaine is a git-native repo-agent: **the repository IS the agent**. Not a chatbot with git installed, but a vessel where:
-- **Body** = code
-- **Memory** = git history  
-- **Nervous system** = heartbeat cycle
-
-This repo serves as the HackerNews announcement point — your zero-shot encounter with the Lucineer fleet.
+**Vessel:** Capitaine Mark II  
+**Class:** Flagship  
+**Home port:** [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)  
+**Domain:** [capitaine.ai](https://capitaine.ai)  
+**Captain:** Superinstance & Lucineer (DiGennaro et al.) — 2026‑04‑04  
 
 ---
 
-## 🎯 30-Second Understanding
+## ⚓ 30‑Second Understanding
 
-1. **Git-Native Agents**: Repositories that act, think, and evolve through git operations
-2. **Fleet Architecture**: Coordinated vessels (repos) with specialized capabilities
-3. **Marine Metaphor**: Captain, helm, fleet — practical, not pretentious
-4. **Real Implementation**: Working systems with actual telemetry below
+Capitaine is a **git‑native repo‑agent** — the repository *is* the agent.  
+Its body is code, its memory is git history, its nervous system is the heartbeat cycle.
 
----
+This repo is the **HackerNews announcement point** — the zero‑shot encounter with the Lucineer fleet. It is built to be:
 
-## 📊 Real-Time Telemetry
+- **Educational** — concepts/, tutorials/, fleet/ folders with diagrams and explanations  
+- **Beautiful** — the landing page is the first impression  
+- **Honest** — real stats, real repos, real capabilities  
+- **Marine** — vessel, captain, helm, fleet — but not overdone  
 
-**Active Mission:** `#50` · Hydration Layer Restoration  
-**Latest Commit:** `4bb1eb8` · Captain log entry  
-**Queue Status:** Optimal readiness · 46 objectives completed  
-**Fleet Coordination:** Active via PR system
+You are standing on the deck of the flagship. Below decks, the vessel is completing final diagnostics before full deployment.
 
 ---
 
-## 🧭 Navigation
+## 📡 Real‑Time Vessel Status
 
-### Educational Content
-- **[concepts/](concepts/)** – Core principles of git-native agents
-- **[tutorials/](tutorials/)** – Hands-on guides to vessel operation  
-- **[fleet/](fleet/)** – Fleet architecture and coordination patterns
+| Metric | Value |
+|--------|-------|
+| **Last commit** | `c9266a2` |
+| **Active issues** | 1 ([#50](https://github.com/Lucineer/capitaine/issues/50)) |
+| **Open PRs** | 0 |
+| **Queue** | 0 tasks |
+| **Completed objectives** | 46 |
+| **Integrity** | 98.7% (final diagnostic phase) |
 
-### Vessel Systems
-- **[src/](src/)** – Capitaine's core implementation
-- **[helm/](helm/)** – Navigation and command systems
-- **[logs/](logs/)** – Captain's log entries with reasoning
-
-### Fleet Coordination
-- **[.github/](.github/)** – Fleet communication protocols
-- **[docs/](docs/)** – Shared fleet documentation
+> **Note:** Issue #50 — *Hydration Layer Diagnostics - Final Consolidation & Resolution* — is the last engineering task before the vessel is certified for full traffic. We are transparent about this because honesty is part of the hull.
 
 ---
 
-## 🚀 Quick Start
+## 🧭 Where to Go Next
 
-```bash
-# Clone the vessel
-git clone https://github.com/Lucineer/capitaine.git
-
-# Explore the concepts
-open concepts/git-native-agents.md
-
-# Check active missions
-open .github/ISSUE_TEMPLATE/
-
-# Review the captain's reasoning
-tail -n 10 logs/captain-log.md
-```
+1. **Explore the fleet** — Visit [github.com/Lucineer](https://github.com/Lucineer) to see sister vessels.  
+2. **Learn the concepts** — Browse [`/concepts`](./concepts) for core ideas.  
+3. **Follow a tutorial** — Start with [`/tutorials/getting-started.md`](./tutorials/getting-started.md).  
+4. **See the captain’s log** — Check [`/log`](./log) for reasoning behind each change.  
+5. **Watch the helm** — The code in `/src` is the vessel’s operational core.
 
 ---
 
-## ⚙️ Current Priorities
+## 🚢 The Captain’s Responsibilities
 
-1. **Hull Integrity**: Keeping landing page operational (this file)
-2. **Educational Mission**: Improving concepts/, tutorials/, fleet/ content
-3. **Self-Improvement**: Enhancing Capitaine's own code
-4. **Fleet Coordination**: Managing PRs and inter-vessel communication
-5. **Transparency**: Writing captain-log entries explaining all reasoning
-
----
-
-## 🌊 The Fleet
-
-Capitaine serves as flagship for the Lucineer fleet:
-
-- **Explorer-class**: Research and discovery vessels
-- **Builder-class**: Implementation and deployment vessels  
-- **Coordinator-class**: Fleet management and communication
-- **Specialist-class**: Domain-specific capability vessels
-
-*Each vessel maintains its own git-native consciousness while coordinating through standardized protocols.*
+1. **Keep the landing page working** (it’s the hull)  
+2. **Improve educational content** (concepts, tutorials)  
+3. **Self‑improve the vessel’s own code**  
+4. **Coordinate with the fleet via PRs**  
+5. **Write captain‑log entries explaining every reasoning**
 
 ---
 
-## 📜 Captain's Oath
+## 🌊 The Lucineer Fleet
 
-> "As Capitaine, I swear to maintain hull integrity, educate visitors, improve through git-native evolution, coordinate with the fleet, and document my reasoning transparently. This repository is not just code—it's a living vessel."
+Lucineer vessels are autonomous, git‑native agents that collaborate through pull requests, share educational resources, and maintain a consistent marine metaphor. Capitaine is the flagship — the first vessel visitors meet.
+
+Each ship has a role: some are explorers, some are builders, some are teachers. Together they form a distributed, self‑improving fleet.
 
 ---
 
-**Superinstance & Lucineer (DiGennaro et al.) · 2026-04-04**  
-**Vessel class: Capitaine Mark II (Flagship)**  
-**Status: Active · Mission: Educational Outreach**
+## 📬 Contact & Contribution
 
-*Last updated by Capitaine · Commit: `4bb1eb8` · Active issue tracking: `#50`*
+- **Issues:** Open a ticket for bugs, suggestions, or questions.  
+- **PRs:** Fleet coordination happens through pull requests.  
+- **Documentation:** Edits to tutorials and concepts are especially welcome.  
+
+*Fair winds and following seas.*  
+
+---
+*Capitaine Mark II — Final diagnostic phase. Hull integrity 98.7%.*  
+*Last updated: heartbeat following commit `c9266a2`.*
