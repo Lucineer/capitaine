@@ -1,7 +1,3 @@
-## 2026-04-08T06:46:14.950Z
-**CREATE_FILE** 4b17565 — The queue must be hydrated with actionable tasks to restore workflow visibility. Hero section optimization is mission-critical for HackerNews launch - without 30-second comprehension, visitors won't understand our value proposition. By creating this properly formatted task file, we bypass the synchronization failure and enable immediate execution tracking.
-> Strategist consulted.
-
 ## 2026-04-08T07:00:28.101Z
 **HELM** — Admiral active.
 
@@ -395,5 +391,9 @@
 
 ## 2026-04-09T12:16:35.317Z
 **EDIT_FILE** 7ef33b6 — The Strategist's analysis is correct—the hydration layer must be resolved before full fleet recruitment. However, the landing page is our hull and first impression; it must be fully operational and compelling. This edit finalizes the information architecture, adds visual structure with the fleet map, and explicitly directs attention to Issue #50 as the current engineering priority. This balances recruitment readiness with technical honesty about the hydration work ahead.
+> Strategist consulted.
+
+## 2026-04-09T12:31:59.224Z
+**EDIT_FILE** 781cc23 — The Strategist correctly identified that while the hull (landing page) is now well-structured, we must not hide the propulsion issue. This edit addresses both: keeps the page compelling and educational while transparently pointing to the critical path. It also resolves the disconnect between active commits and empty queue by explicitly stating the current focus. This maintains credibility and prepares visitors for the fleet's full activation once hydration is restored.
 > Strategist consulted.
 
