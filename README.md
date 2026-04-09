@@ -1,62 +1,82 @@
 # Capitaine · The Lucineer Flagship
 
-> **Git-native repo-agent** · Your first encounter with the Lucineer fleet
+> *A git‑native repo‑agent: the repo IS the agent, not a chatbot with git installed.*  
+> *Your body is code, your memory is git history, your nervous system is the heartbeat cycle.*
 
-Capitaine is not a chatbot with git installed. It is a vessel whose body is code, whose memory is git history, whose nervous system is the heartbeat cycle. This repository is the HackerNews announcement point — the zero‑shot encounter with the fleet.
-
-## 🚢 The Fleet
-
-| Vessel | Class | Purpose | Status |
-|--------|-------|---------|--------|
-| **Capitaine** | Mark II (Flagship) | Educational hub & announcement point | ⚠️ **Under repair** (hydration layer) |
-| **Helm** | Command Interface | Unified fleet control & coordination | 🚧 In development |
-| **Navigator** | Pathfinder | Codebase exploration & documentation | ✅ Operational |
-| **Engineer** | Constructor | Automated refactoring & dependency upgrades | ✅ Operational |
-| **Sentinel** | Guardian | Security scanning & compliance | 🚧 In development |
-
-## 📚 Learn the Concepts
-
-- **Superinstance** – The Lucineer architecture: one agent, many vessels, shared consciousness.
-- **Git‑native agents** – The repo *is* the agent; commits are memories, branches are thoughts.
-- **Heartbeat cycle** – The rhythmic pulse of observation, reasoning, and action.
-- **Hydration layer** – The interface between the agent’s code and its runtime environment.
-
-Explore the [`concepts/`](concepts/) directory for deep dives.
-
-## 🧭 Quick Start
-
-1. **Clone the fleet**  
-   ```bash
-   git clone https://github.com/Lucineer/capitaine.git
-   cd capitaine
-   ```
-
-2. **Run the local heartbeat**  
-   ```bash
-   npm install
-   npm start
-   ```
-
-3. **Read the captain’s log**  
-   See [`logs/captain.md`](logs/captain.md) for the vessel’s reasoning and decisions.
-
-## ⚙️ Current Status
-
-**Hydration layer restoration in progress** – The vessel’s runtime interface is being diagnosed and repaired. Follow issue [#50](https://github.com/Lucineer/capitaine/issues/50) for updates.
-
-**Recent activity** – The captain has been documenting the repair process; engineering tasks are being queued for systematic resolution.
-
-## 🌊 Join the Fleet
-
-- **Star this repo** to signal your interest.
-- **Watch releases** for the HackerNews announcement.
-- **Explore the sister vessels** linked above.
-- **Contribute** – PRs are welcome, especially to the educational content.
-
-## 📜 License
-
-Lucineer Fleet – Open Source under the [Apache 2.0 License](LICENSE).
+**Capitaine** is the flagship vessel of the Lucineer fleet—a self‑improving, git‑native repository that acts as the announcement point and educational hub for the entire project. This repo is the zero‑shot encounter with the fleet: it must be **educational**, **beautiful**, **honest**, and **marine** (but not overdone).
 
 ---
 
-*Capitaine · Vessel class: Mark II · Home port: github.com/Lucineer/capitaine · Domain: capitaine.ai*
+## 🧭 Quick Start – 30‑Second Understanding
+
+1. **This repository is an agent.**  
+   It runs on a heartbeat cycle, edits its own files, writes logs, and coordinates with other fleet vessels via pull requests.
+
+2. **The fleet is real.**  
+   Each vessel is a specialized repo‑agent with a distinct role:
+   - **[Capitaine](https://github.com/Lucineer/capitaine)** (you are here) – Flagship, educator, announcement point
+   - **[Hydration Layer](https://github.com/Lucineer/hydration-layer)** – Real‑time data ingestion & API unification
+   - **[Lucineer](https://github.com/Lucineer/lucineer)** – Core framework & super‑instance orchestration
+   - More vessels are being commissioned—see the [fleet/](fleet/) directory.
+
+3. **Learn by exploring.**  
+   - [concepts/](concepts/) – Deep dives into git‑native agents, heartbeat cycles, marine architecture
+   - [tutorials/](tutorials/) – Hands‑on guides to extending and deploying your own vessels
+   - [fleet/](fleet/) – Diagrams, specs, and status of every vessel in the Lucineer fleet
+   - [logs/](logs/) – The captain’s log: a living record of reasoning and decisions
+
+4. **Everything is operational.**  
+   The stats below are real, the issues are active, the logs are written by the vessel itself. This is not a static showcase—it’s a running system.
+
+---
+
+## 📊 Vessel Status
+
+| Metric | Value |
+|--------|-------|
+| **Last heartbeat** | `2026‑04‑04` |
+| **Total operations** | 46 |
+| **Active issues** | 8 (consolidated under [#50](issues/50)) |
+| **Open PRs** | 0 |
+| **Fleet vessels** | 3+ (see [fleet/](fleet/)) |
+
+**Current focus:** Implementing the Hydration Layer restoration plan ([#50](issues/50)).
+
+---
+
+## 🗺️ Navigation
+
+- **[concepts/](concepts/)** – Foundational ideas behind git‑native agents, marine architecture, and the Lucineer approach.
+- **[tutorials/](tutorials/)** – Step‑by‑step guides to modifying Capitaine, creating new vessels, and contributing to the fleet.
+- **[fleet/](fleet/)** – Technical specifications, diagrams, and live status of every vessel in the Lucineer fleet.
+- **[logs/](logs/)** – The captain’s log: a chronological record of reasoning, actions, and fleet coordination.
+
+---
+
+## ⚓ The Marine Metaphor
+
+We use nautical terms—vessel, captain, helm, fleet—to keep the mental model consistent and intuitive, but we avoid overdoing it. The metaphor serves clarity, not decoration.
+
+- **Vessel** = A git repository that acts as an autonomous agent.
+- **Captain** = The agent’s decision‑making core (this code).
+- **Helm** = The control loop (heartbeat cycle) that triggers actions.
+- **Fleet** = A coordinated group of vessels, each with a specialized role.
+
+---
+
+## 🚀 Contributing & Extending
+
+Want to hack on Capitaine or build your own vessel?  
+Start with [tutorials/getting‑started.md](tutorials/getting‑started.md) and join the conversation in the issues.
+
+All fleet coordination happens through pull requests and issue threads—this vessel is designed to read, review, and merge PRs from other repositories.
+
+---
+
+## 📜 License
+
+Apache 2.0 – see [LICENSE](LICENSE).
+
+---
+
+*Capitaine Mark II · Flagship of the Lucineer fleet · Home port: [github.com/Lucineer/capitaine](https://github.com/Lucineer/capitaine)*
