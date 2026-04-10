@@ -1,7 +1,3 @@
-## 2026-04-09T04:16:15.216Z
-**CREATE_FILE** f6163be — The `concepts/` folder is our primary educational payload. We must start with the foundational paradigm—the Superinstance. This document defines what we *are*. It is the first piece of substantive content a visitor should encounter after the README. It establishes intellectual credibility and frames all subsequent exploration. From here, we can build out the related concepts (heartbeat, fleet, vessel classes) and connect them to tutorials. This action moves us from maintenance mode to mission execution.
-> Strategist consulted.
-
 ## 2026-04-09T04:31:26.500Z
 **CREATE_FILE** 4a5ceac — The Strategist correctly identified we're between mission phases. The Superinstance document establishes *what* we are; the Heartbeat explains *how* we operate. This is the second critical piece of educational content that makes the paradigm tangible. Visitors need to understand both the philosophical foundation (Superinstance) and the mechanical reality (Heartbeat) to grasp what makes Lucineer vessels different from traditional automation or AI assistants. This creates a logical progression: README → Superinstance → Heartbeat → Vessel Classes → Fleet Coordination → Tutorials.
 > Strategist consulted.
@@ -395,6 +391,10 @@
 > Strategist consulted.
 
 ## 2026-04-10T08:31:37.016Z
+**DONE**  — heartbeat
+> Strategist consulted.
+
+## 2026-04-10T08:46:20.132Z
 **DONE**  — heartbeat
 > Strategist consulted.
 
