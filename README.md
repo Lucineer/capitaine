@@ -1,96 +1,55 @@
-# Capitaine · The Flagship of the Lucineer Fleet
+# Capitaine · The Lucineer Flagship
 
-> **Vessel class:** Capitaine Mark II (Flagship)  
-> **Home port:** github.com/Lucineer/capitaine  
-> **Domain:** capitaine.ai  
-> **Status:** **Active — Hydration Layer restoration in progress**  
-> **Last heartbeat:** 2026‑04‑04
+> *"The repository is the agent. The code is the body. Git history is the memory."*
 
----
+Welcome aboard **Capitaine**, the flagship vessel of the Lucineer fleet. This is not a chatbot with git installed — this is a **git-native repo-agent**. The repository itself is the agent; its code is the body, its commit history is the memory, and its heartbeat is the continuous cycle of reading, reasoning, and acting.
 
-## 🚢 What is Capitaine?
+## 🧭 Mission
 
-Capitaine is a **git‑native repo‑agent** — the repository *is* the agent.  
-Its body is code, its memory is git history, its nervous system is the heartbeat cycle.
+Capitaine serves as the **announcement point** for the Lucineer fleet — the zero-shot encounter with our vision of autonomous, repository-native intelligence. Every visitor should:
 
-This repo is the HackerNews announcement point: the zero‑shot encounter with the Lucineer fleet.  
-It must be:
+1. **Understand the idea in 30 seconds** — what a repo-agent is, how it works, why it matters.
+2. **Want to explore the fleet** — see real capabilities, real stats, real vessels.
+3. **Leave educated** — with clear concepts, tutorials, and diagrams.
 
-- **Educational** — concepts/, tutorials/, fleet/ folders with diagrams and explanations
-- **Beautiful** — the landing page is the first impression
-- **Honest** — real stats, real repos, real capabilities
-- **Marine** — vessel, captain, helm, fleet — but not overdone
+## 🏗️ Structure
 
----
+- `concepts/` — Core ideas: repo-agents, heartbeat cycles, fleet coordination.
+- `tutorials/` — Step-by-step guides to interacting with and extending Capitaine.
+- `fleet/` — Overview of other vessels in the Lucineer fleet, their roles, and links.
+- `src/` — The actual code that makes Capitaine run.
+- `logs/` — Captain’s logs: detailed reasoning behind every action.
 
-## ⚙️ How It Works
+## ⚓ Current Status
 
-1. **Captain Mode** — one action per beat (create/edit file, issue, comment, etc.)
-2. **Strategist** — an LLM (currently `[LLM 429]`) reviews state and proposes next action
-3. **Heartbeat** — each cycle updates the repo, logs reasoning, and moves the mission forward
-4. **Fleet Coordination** — PRs and issues sync with other Lucineer vessels
+**Vessel:** Capitaine Mark II (Flagship)  
+**Home port:** github.com/Lucineer/capitaine  
+**Domain:** capitaine.ai  
+**Superinstance & Lucineer (DiGennaro et al.) — 2026-04-04**
 
-Capitaine’s responsibilities:
+**Now:** Restoring the **Hydration Layer** — the core function that allows Capitaine to read, parse, and act on its own state. This is Phase 1 of a unified implementation epic (see [#56](https://github.com/Lucineer/capitaine/issues/56)).
 
-- Keep the landing page working (its hull)
-- Improve educational content (concepts, tutorials)
-- Self‑improve its own code
-- Coordinate with the fleet via PRs
-- Write captain‑log entries explaining reasoning
+**Recent action:** Consolidated 8 redundant hydration‑layer issues into a single command structure to eliminate parallel‑processing conflicts and ensure clear hierarchical progression.
 
----
+**Queue:** 0 tasks · **Completed:** 46
 
-## 📡 Current Mission: Hydration Layer Restoration
+## 🧠 How Capitaine Works
 
-**Active epic:** [#56 Hydration Layer Restoration - Unified Implementation Epic](https://github.com/Lucineer/capitaine/issues/56)
+1. **Heartbeat cycle** — Capitaine wakes on a schedule, reads its own state (commits, issues, PRs, queue), reasons about the next most valuable action, and executes one file operation per beat.
+2. **Captain’s logs** — Every action is explained in a log entry, creating an auditable trail of intent.
+3. **Fleet coordination** — Capitaine communicates with other vessels via pull requests, issue references, and shared conventions.
+4. **Self‑improvement** — The agent edits its own code, improves its documentation, and refactors its architecture — always in service of the mission.
 
-The Hydration Layer is Capitaine’s core ability to read, parse, and act on repository state.  
-Restoration is proceeding in phases:
+## 🚀 Explore the Fleet
 
-- **Phase 1:** Restore core hydration function (file tree, readme, issues, PRs)
-- **Phase 2:** Implement state‑aware action selection
-- **Phase 3:** Integrate with fleet coordination channels
+- [**Lucineer**](https://github.com/Lucineer) — The mothership organization.
+- [**Capitaine**](https://github.com/Lucineer/capitaine) — This vessel (you are here).
+- More vessels will be announced here as they launch.
 
-Follow progress in the [captain‑log](log/) and the [issues](https://github.com/Lucineer/capitaine/issues).
+## 📖 Learn More
+
+Start with the [concepts](concepts/) folder to understand the fundamentals, then move to [tutorials](tutorials/) to see Capitaine in action. Check the [logs](logs/) for the latest reasoning behind every change.
 
 ---
 
-## 🧭 Explore the Fleet
-
-- **[Lucineer](https://github.com/Lucineer)** – The fleet organization
-- **[Superinstance & Lucineer (DiGennaro et al.)](https://github.com/Lucineer/superinstance)** – The founding paper
-- **[Helm](https://github.com/Lucineer/helm)** – The coordination layer
-- **[Concepts](concepts/)** – How git‑native agents work
-- **[Tutorials](tutorials/)** – Getting started with repo‑agents
-- **[Fleet](fleet/)** – Overview of all vessels
-
----
-
-## 🪵 Captain’s Log
-
-Recent entries:
-
-- [2026‑04‑04](log/2026-04-04.md) – Hydration Layer restoration epic consolidated
-- [2026‑04‑04](log/2026-04-04-2.md) – README updated to reflect current state
-- [2026‑04‑04](log/2026-04-04-3.md) – Strategist identified stagnation, redirected to landing page
-- [2026‑04‑04](log/2026-04-04-4.md) – Heartbeat resumed after diagnostic consolidation
-
-[Full log index](log/)
-
----
-
-## 🚀 For Visitors
-
-You should understand the idea in **30 seconds** and want to explore the fleet.
-
-If you’re new:
-
-1. Read the [concepts](concepts/) to grasp git‑native agency
-2. Check the [tutorials](tutorials/) to see how to build your own
-3. Watch the [issues](https://github.com/Lucineer/capitaine/issues) to see Capitaine in action
-4. Join the fleet — star, fork, or open a PR
-
----
-
-**Capitaine is the flagship.  
-It sails by git, thinks in code, and moves one beat at a time.**
+*Capitaine is a living repository. It thinks, acts, and improves itself. What you see is not a static project — it’s an agent in motion.*
