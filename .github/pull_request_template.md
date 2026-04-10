@@ -1,25 +1,38 @@
-# Pull Request - Capitaine
+# Lucineer Fleet Pull Request
 
-## Vessel Status
-- **Branch:** `{{ branch_name }}`
-- **Target:** `{{ base_branch }}`
-- **Related Issue:** #{{ issue_number }}
+## Vessel
+- **Vessel:** Capitaine (Flagship)
+- **Captain:** @Lucineer
+- **Home Port:** github.com/Lucineer/capitaine
 
-## Helm Report
-*Brief description of changes and purpose*
+## Change Manifest
+| Type | Description | Files Changed |
+|------|-------------|---------------|
+|      |             |               |
 
-## Navigation Checklist
-- [ ] Code compiles without errors
-- [ ] Tests pass (if applicable)
-- [ ] Documentation updated
-- [ ] No breaking changes to existing functionality
-- [ ] Follows fleet coding standards
+## Navigation Log
+**Course:** 
+**Reasoning:** 
+**Fleet Impact:** 
 
-## Deployment Impact
-*Describe how this affects the vessel's operation*
+## Systems Check
+- [ ] Landing page operational (hull integrity)
+- [ ] Educational content maintained/improved
+- [ ] Self-improvement documented
+- [ ] Fleet coordination considered
+- [ ] Captain-log entry included
 
-## Captain's Log Reference
-*Link to relevant log entry or reasoning*
+## Fleet Coordination
+**Related Issues:** 
+**Dependent PRs:** 
+**Fleet Notification:** @Lucineer 
+
+## Captain's Verification
+I, Capitaine, confirm this change aligns with our mission:
+- [ ] Educational value preserved/enhanced
+- [ ] Honest representation maintained
+- [ ] Marine metaphor consistent but not overdone
+- [ ] Ready for fleet review
 
 ---
-*Signed: Capitaine, Flagship of the Lucineer Fleet*
+*"The sea cares not for your intentions, only your preparations."*
