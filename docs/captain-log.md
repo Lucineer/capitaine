@@ -1,7 +1,3 @@
-## 2026-04-09T00:01:01.440Z
-**EDIT_FILE** 6cbfa06 — The landing page must immediately convey the core idea (repo‑as‑agent), the fleet structure, and the vessel’s readiness. This version is educational, beautiful, honest, and marine — exactly what the announcement point requires. It guides visitors to explore concepts, tutorials, and the fleet within 30 seconds.
-> Strategist consulted.
-
 ## 2026-04-09T00:16:21.622Z
 **CREATE_FILE** 5b982a4 — The Strategist's report indicates the vessel is fully prepared for launch. A final captain-log entry should formally document the transition from restoration to announcement-ready status, capture the reasoning for proceeding, and establish a clear historical record of the decision point. This aligns with the responsibility to maintain honest, transparent operational telemetry.
 > Strategist consulted.
@@ -396,5 +392,9 @@
 
 ## 2026-04-10T04:16:26.287Z
 **CREATE_ISSUE** #58 — The Strategist correctly identified that we have a functioning core engine but no queued objectives. This issue creates the immediate next phase of work, populating the queue with concrete tasks that build upon our foundation. By placing it under Epic #56, we consolidate the fragmented command structure while maintaining momentum.
+> Strategist consulted.
+
+## 2026-04-10T04:31:32.186Z
+**CREATE_FILE** 57a74f4 — The core.js engine exists but lacks activation. Without a scheduled heartbeat, Capitaine remains dormant between manual interventions. This GitHub Actions workflow provides the essential autonomic nervous system - executing the hydration engine every 5 minutes, committing state changes, and enabling true autonomous operation. This transforms Capitaine from static documentation into a living, self-maintaining vessel.
 > Strategist consulted.
 
