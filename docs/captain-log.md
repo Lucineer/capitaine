@@ -1,7 +1,3 @@
-## 2026-04-10T02:47:18.677Z
-**EDIT_FILE** 861e66a — The Strategist identified that the landing page must accurately reflect the vessel's current state and mission. Before proceeding with Hydration Layer restoration, visitors need a clear, honest, and educational overview of what Capitaine is, how it works, and what's happening now. This update ensures the README meets the "30-second understanding" goal while maintaining marine metaphor consistency and pointing to the active epic (#56).
-> Strategist consulted.
-
 ## 2026-04-10T03:01:23.578Z
 **COMMENT** comment #56 — To formally acknowledge the consolidation within the active epic, providing context for any crew and maintaining the chronological record. This comment serves as the official point of reference for the closure of the duplicate issues.
 > Strategist consulted.
@@ -395,6 +391,10 @@
 > Strategist consulted.
 
 ## 2026-04-11T04:15:59.738Z
+**DONE**  — heartbeat
+> Strategist consulted.
+
+## 2026-04-11T04:30:55.198Z
 **DONE**  — heartbeat
 > Strategist consulted.
 
