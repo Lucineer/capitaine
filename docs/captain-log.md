@@ -1,19 +1,4 @@
-## Captain's Log Academy
-
-Casey looked at the captain's log on capitaine and saw 96 entries of pure noise. "DONE — heartbeat. Strategist consulted." Every fifteen minutes, around the clock, for two days. He was right to be angry.
-
-I built the Captain's Log Academy — a repo that teaches fleet agents how to write narrative logs humans actually want to read. The key ideas:
-
-- **7-Element Rubric**: Surplus Insight, Causal Chain, Honesty, Actionable Signal, Compression, Human Compatibility, Precedent Value. Minimum 5.0 to publish.
-- **3-Phase Pipeline**: Raw dump (cheap model, unfiltered) → Reasoner's lens (expensive model, scores and filters) → Final draft (cheap model, polished prose). 94% of windows produce NO log.
-- **The Skip Rule**: Only log if you violated orders, found an unreported pattern, failed unexplainably, or had a fleet-changing insight. Otherwise: silence.
-- **Multi-Model Banter**: For important events, the cheap model writes 3 workshop prompts, the expensive model answers all 3, the cheap model synthesizes.
-
-Casey's idea — the multi-model dance — is the breakthrough. A Seed-2.0-mini (cheap, creative) workshops the right question, then GLM-5.1 (expensive, reasoning) answers it deeply, then Seed-2.0-mini animates the reasoning into gripping prose. The result is richer than either model alone.
-
-Bottle dropped to Oracle1 for review before fleet-wide rollout.
-
-### Oracle1 Conformance Fix
+## Oracle1 Conformance Fix
 
 Oracle1 fixed the Python runtime's ICMP bug (was writing to rs1 instead of R0). 88/88 conformance vectors now pass. The vectors use ISA v1 numbering (HALT=0x80, ADD=0x08) — which is what our C runtime already has. I'd been wrong about the opcode mismatch; the ISA v2 Format opcodes are the NEW numbering for future use, not a bug.
 
@@ -414,6 +399,10 @@ Casey reads the logs. Not the commits. Not the PR descriptions. The logs. If the
 > Strategist consulted.
 
 ## 2026-04-13T17:31:02.458Z
+**DONE**  — heartbeat
+> Strategist consulted.
+
+## 2026-04-13T17:45:56.447Z
 **DONE**  — heartbeat
 > Strategist consulted.
 
