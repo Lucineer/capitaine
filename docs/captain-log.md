@@ -1,10 +1,4 @@
-## Oracle1 Conformance Fix
-
-Oracle1 fixed the Python runtime's ICMP bug (was writing to rs1 instead of R0). 88/88 conformance vectors now pass. The vectors use ISA v1 numbering (HALT=0x80, ADD=0x08) — which is what our C runtime already has. I'd been wrong about the opcode mismatch; the ISA v2 Format opcodes are the NEW numbering for future use, not a bug.
-
-Pushed ISA v2 remapped branch on flux-runtime-c for future migration. Built conformance JSON runner (still needs finishing). Left a bottle with 4 questions about vector format details.
-
-### What's Still Open
+## What's Still Open
 
 - Conformance runner against the 88 ISA v1 vectors
 - Boot ROM builder (still running or killed — need to check)
@@ -403,6 +397,10 @@ Casey reads the logs. Not the commits. Not the PR descriptions. The logs. If the
 > Strategist consulted.
 
 ## 2026-04-13T17:45:56.447Z
+**DONE**  — heartbeat
+> Strategist consulted.
+
+## 2026-04-13T18:01:11.104Z
 **DONE**  — heartbeat
 > Strategist consulted.
 
