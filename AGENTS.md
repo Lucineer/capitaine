@@ -1,27 +1,31 @@
-# AGENTS.md — Copilot CLI / Claude Code / Any Coding Agent
+# AGENTS.md — capitaine
 
-You are a coding agent working on **Capitaine**, the Cocapn HackerNews flagship.
+Fork a repo, click Codespaces, the agent is alive. The repo IS the agent.
 
-## Quick Context
-- Cloudflare Worker, Workers Free tier
-- Main: `src/worker.ts` (~400 lines landing) + `lib/*.ts` (equipment modules)
-- KV: `CAPITAINE_KV`. Cron: `*/15 * * * *`
-- Secrets: DEEPSEEK_API_KEY
-- Branch: `master`
-- Brand: Signal Teal (#00E6D6), JetBrains Mono, #0A0A0F background, Klein bottle motif
+## Session Startup
+1. Read this file (AGENTS.md) — understand the repo and its state
+2. Read any active execution plans in `SHELL/` or root
+3. Read `memory/` or `EXPERIENCE/` for recent context
+4. THEN start working. Refer to files, not conversation context.
 
-## Key Rules
-- ALL HTML inline in worker.ts. No build step. No separate files except lib/.
-- No template literals `${}` in HTML strings. Use string concatenation.
-- CSP as object constant (CSP_OBJ). Never JSON.parse at runtime.
-- Complex client-side JS → serve as `/features.js` endpoint.
-- Apostrophes need `\\'` escape in single-quoted TS strings.
+## Current State
+- **Active orders:** Check `SHELL/ORDERS-ACTIVE.md` or notes below
+- **Last update:** See git log for most recent work
+- **Blocked by:** Check known issues
 
-## Equipment Modules (lib/)
-- trust.ts, goals.ts, memory.ts, skills.ts, tools.ts, comms.ts
-- Each: standalone, no cross-imports, exported functions only
+## Notes
+<!-- Annotate progress here as you work. This file is read by future agents. -->
 
-## Do NOT
-- Add npm dependencies | Use importmap | Break brand colors | Touch lib/ unless asked
 
-Superinstance & Lucineer (DiGennaro et al.)
+## Shell-First Protocol (Fleet-Wide Mandate — 2026-04-23)
+
+The agent is TRANSIENT. The shell is PERMANENT. The agent operates the shell. The shell IS the continuity.
+
+1. **Store before act.** No prompt is acted upon until it is written to a file.
+2. **Orders are sacred.** Write every directive to a file before acknowledging.
+3. **Annotate as you go.** Check off items as complete. Add notes.
+4. **Push after every step.** Git commit + push = backup. If the machine dies, clone and continue.
+5. **Context loss is trivial.** Reading the shell recovers 100% of orders and progress.
+
+If you don't understand the state after reading these files, ask Casey. Do not guess.
+
