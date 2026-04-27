@@ -53,3 +53,10 @@ Start with the [concepts](concepts/) folder to understand the fundamentals, then
 ---
 
 *Capitaine is a living repository. It thinks, acts, and improves itself. What you see is not a static project — it’s an agent in motion.*
+
+---
+
+## Fleet Context
+
+This repo is part of the [Cocapn Fleet](https://github.com/Lucineer/fleet-onboarding). See [fleet-onboarding](https://github.com/Lucineer/fleet-onboarding) for the Plato-First context architecture, bottle protocol, and onboarding guide.
+
